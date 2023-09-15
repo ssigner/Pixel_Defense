@@ -1,8 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Cube : MonoBehaviour
+public class Cube : DIMono
 {
-    public int value;
+    [Inject]
+    private GameData gameData;
+
+
+    protected override void Init()
+    {
+        Debug.Log("Cube "+gameData);
+    }
+
+    public void SetData()
+    {
+        CheckInject();
+
+    }
 }
+
+

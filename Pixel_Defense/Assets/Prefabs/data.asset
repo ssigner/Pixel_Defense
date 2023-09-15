@@ -12,5 +12,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4819f4c10d886154b9348ab5cdf93498, type: 3}
   m_Name: data
   m_EditorClassIdentifier: 
-  items: []
-  monsters: []
+  towers:
+  - code: 1
+    name: "\uC77C\uBC18 \uAE30\uC0AC"
+    price: 3
+    towerType: 1
+    atkRange:
+      min: 0
+      max: 1
+  - code: 2
+    name: "\uC77C\uBC18 \uB9C8\uBC95\uC0AC"
+    price: 4
+    towerType: 0
+    atkRange:
+      min: 0
+      max: 2
+  - code: 3
+    name: "\uC77C\uBC18 \uC0AC\uC81C"
+    price: 3
+    towerType: 0
+    atkRange:
+      min: 0
+      max: 3
+  - code: 4
+    name: "\uACE0\uAE09 \uAE30\uC0AC"
+    price: 6
+    towerType: 1
+    atkRange:
+      min: 0
+      max: 2
+  - code: 5
+    name: "\uACE0\uAE09 \uB9C8\uBC95\uC0AC"
+    price: 8
+    towerType: 0
+    atkRange:
+      min: 0
+      max: 4
+  - code: 6
+    name: "\uACE0\uAE09 \uC0AC\uC81C"
+    price: 6
+    towerType: 0
+    atkRange:
+      min: 0
+      max: 6
+  monsters:
+  - code: 1
+    name: "1\uB2E8\uACC4"
+    hp: 10
+    def: 1
+    speed: 1
+    prefabPath: Mob/CluckingChickenIdleSide.prefab
+    scale: 8
+  - code: 2
+    name: "2\uB2E8\uACC4"
+    hp: 15
+    def: 1
+    speed: 1
+    prefabPath: Mob/CluckingChickenIdleSide.prefab
+    scale: 8
+  - code: 3
+    name: "3\uB2E8\uACC4"
+    hp: 20
+    def: 1
+    speed: 1
+    prefabPath: Mob/CluckingChickenIdleSide.prefab
+    scale: 8
+  - code: 4
+    name: "4\uB2E8\uACC4"
+    hp: 25
+    def: 1
+    speed: 1
+    prefabPath: Mob/CluckingChickenIdleSide.prefab
+    scale: 8
