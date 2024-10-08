@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 public class ObjectPoolManager : MonoBehaviour
 {
     // Dictionary를 사용하여 프리팹 별로 오브젝트 풀 관리
-    private Dictionary<string, ObjectPool> objectPools = new Dictionary<string, ObjectPool>();
+    private Dictionary<string, ObjectPool> objectPools = new();
 
     // 프리팹과 풀 크기를 설정하기 위한 클래스
     [System.Serializable]
@@ -17,7 +18,7 @@ public class ObjectPoolManager : MonoBehaviour
     }
 
     public List<PrefabInfo> prefabPoolPairs = new List<PrefabInfo>();
-    Dictionary<GameObject, string> gameObjectKeys = new Dictionary<GameObject, string>();
+    public Dictionary<GameObject, string> gameObjectKeys = new();
 
 
     void Start()

@@ -22,13 +22,839 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91c324546eaa43548b92175b340807af
+    m_Address: Assets/Prefabs/StageConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2ac37451fe0d654f8e206d1625c53d6
+    m_Address: Mob/CoralCrabIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70d4057baf0796246b882839de793373
+    m_Address: Mob/CuriousMonkeyIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6684547c3e04a4e48870661be8e81cf0
+    m_Address: Mob/DaintyPigIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e26a786bd0f723e4789bc854d35a8efe
+    m_Address: Mob/GrazingCowIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad5545f2c59676b4c8044f8d2890a4b5
+    m_Address: Mob/HonkingGooseIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a512df9ddec6a7418636194f7d42945
+    m_Address: Mob/HulkingGorillaIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d85cf2b9181a0544ba9e49ac76228efd
+    m_Address: Mob/MeowingCatIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f842b608f84dab94ca2933e7f15f486d
+    m_Address: Mob/NibblingGoatIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5abac9edea759940a0dfee9f0803552
+    m_Address: Mob/PasturingSheepIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f42b7f98e48c1974686ac44a517b8fb8
+    m_Address: Tower/ElfLordIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a381e822cde06b4483ff7e5a5b8bbdd
+    m_Address: HumanoidBasic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe4e5de89c4105b40824cbe8791cfd70
+    m_Address: "\uD0C0\uC6CC2"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6316a82474233947b48c5e9b4872c41
+    m_Address: "\uD0C0\uC6CC"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cde70278f2df12744a946fd8744def2f
+    m_Address: Tower/GnomeTinkererIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97de057646d15a148ad3a31ace76ba87
+    m_Address: Tower/JovialFriarIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb798b842438e0040948ba9d8f63c006
+    m_Address: "\uD0C0\uC6CC3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e02a93d1d0501dc46a019c7b85e7ae00
+    m_Address: Tower/EarthElementalIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 213ffbc15e87fde48b2f43797a41f258
+    m_Address: Tower/RadiantPaladinIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e1aa5ddca9570d47b4a6efc348d20c2
+    m_Address: Tower/ElegantDamselIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0f269201252a7049b7c1517bd19be59
+    m_Address: Tower/ZealousPriestIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e85247d495a24b64fb0f56ab0555166a
+    m_Address: Tower/IceGolemIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec74f36ed6e7cc24384665a24f202ed0
+    m_Address: Tower/BraveKnightIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47c3a634100cc59428a4a04aa481a3a0
+    m_Address: Tower/ElfEnchanterIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3507d0f08218d8449ab851a766ddc6fb
+    m_Address: Tower/AnointedHighPriestIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d41e02aee6ab36141a6a32d736ee2f35
+    m_Address: Tower/FireElementalIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6c60c84c7b8f1041866b9ad9d7db96c
+    m_Address: Demon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eafacb4ec6b81784493604554c5d8669
+    m_Address: Tower/BladeHellionIdleFront.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40eb4036f28e4db42a48add4930f0765
+    m_Address: Tower/GoblinArcherIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b95c4e1963765ce4eade38c50f600a78
+    m_Address: Tower/LizardfolkArcherIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ccac0ac0550eb24d863c3c47e06390a
+    m_Address: Tower/ProngedFuryIdleFront.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bb4aad0d70a61f40910d075c8b5160f
+    m_Address: Tower/SpikedRavagerIdleFront.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3c6317fa245dc34fb0178080606319b
+    m_Address: Tower/GnollGruntIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f489abc9f4898447b441d6596d58218
+    m_Address: IconPack 1.2/Skills/Skills.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59cff1bb6e34321489804665b1958186
+    m_Address: Projectile/code5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8399d7e6a7942434698850ca75faa8d4
+    m_Address: Materials/white.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f1cb0348a6a1ec4d93da3ff90d466a1
+    m_Address: Materials/outline.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5816cf6e9adcf34891938f310574b83
+    m_Address: Projectile/code4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36c8cb3e692ec5048b96a09d514ec25c
+    m_Address: Projectile/code2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c236ace47444d1e42bce6a75e522689a
+    m_Address: Projectile/code1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36687593c815e9b4cbb8f5c8d732ff80
+    m_Address: Tower/expert druid.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12ce33d6b78adb049a508fb8e039b9a9
+    m_Address: Tower/ResoluteAngelIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2bd1d05b2e7aa64c829ac1f05ebbc7f
+    m_Address: Tower/GrizzledTreantIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b1258ca86ee023b4999f4335a1e2340a
     m_Address: Assets/Prefabs/data.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 91c324546eaa43548b92175b340807af
-    m_Address: Assets/Prefabs/StageConfig.asset
+  - m_GUID: 5cd4ec93378244a4cbe9b72a3d692130
+    m_Address: AllItems/Weapon/Sword/SwordOutline.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 567e41fd3e7716544a8dccc2caf0b75e
+    m_Address: AllItems/Weapon/Staff/StaffOutline.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af819116570f2ae40b78b15f7b90c14a
+    m_Address: AllItems/Miscellaneous/Artifact/ArtifactOutline.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9d3587cefaa56749b47e1370b5aaa7b
+    m_Address: 48x48/spellbook_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fc6738a029432a4c945382daf8e6dd5
+    m_Address: 48x48/staff_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd651a4fbca9d834698d1c02db6dabc1
+    m_Address: 48x48/sword_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbb05b833730cee49a50225fdda53d64
+    m_Address: 48x48/book_05b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79bf9b21bbd29e84c859b9e6f5c30112
+    m_Address: 48x48/arrow_02a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28653bd3d8eb24e4f97a405248daa20a
+    m_Address: 48x48/gloves_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c5dd21589c16b548a73a6ceb484f85e
+    m_Address: 48x48/sword_01b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8c88aaf2c58b2141bab1bcf95befe86
+    m_Address: 48x48/flower_02a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd68bb524e18d53409246b1fab918c7a
+    m_Address: 48x48/book_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44f9e7b17acea0248b317ab71bf36660
+    m_Address: 48x48/skull_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdea2ad6fd2e79943a34dd73a072b30f
+    m_Address: 48x48/helmet_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33124683d31c61a4ba06ff71b8fa66b9
+    m_Address: 48x48/scroll_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 650aaa3a568b26a4180f7103b42f9341
+    m_Address: bullet_orange.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74ac5b8487ac2574f892b61c0a3b6338
+    m_Address: bullet_red.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ff0dbf9a0e44dd4b92623388d19f55b
+    m_Address: bullet_blue.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 964e1a05e6e609946b75e7ce85bb036c
+    m_Address: bullet_green.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecd67cb7cd716d4438592789f0081917
+    m_Address: bullet_yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfaf3db4034f1fb4095f8a60a0124304
+    m_Address: bullet_dark_purple.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98f16902fa4e78b4bae5e4a8437ba477
+    m_Address: bullet_purple.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97491471fd49a584d973bc06d7403af8
+    m_Address: bullet_pink.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f8e08306f9047c44b59930c0fec47e3
+    m_Address: Projectile/code6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d855da173ad81304984371ed1b657b50
+    m_Address: Projectile/code7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e94dbaf3ca9e804f8ac97356c677584
+    m_Address: Projectile/code8.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77a4ff3ad6305b441af72c777d34d149
+    m_Address: Projectile/code10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb13d3be8a3c921448b9ebdde9ceef0c
+    m_Address: Projectile/code11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d71df1447558aa1449324571b1a586fa
+    m_Address: Projectile/code12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daf2ed1f5495bc14d9db7c4c2458000a
+    m_Address: Projectile/code13.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1af2ba77bd591f2459ae6a1b53da3099
+    m_Address: Projectile/code14.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a4e5e9e08617e84fade7db02e195ba8
+    m_Address: Projectile/code16.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e5279bc28870eb4e8f937c3c147652d
+    m_Address: Assets/Animations/Projectile/code18/code18.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73a8808fbb470e74f97e268c34c30c27
+    m_Address: 48x48/shard_01c.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0551687636a0d74eb31c5b5c8a2e34a
+    m_Address: 48x48/shard_01h.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04b5881f2e9e4cb49bf319f509ef66e2
+    m_Address: 48x48/shard_01d.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 248814b19546b48409393fac43b4cdbc
+    m_Address: 48x48/staff_02b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44dd2c8f693d0854ba1759f7133bb61e
+    m_Address: 48x48/spellbook_01e.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 528525d5b29c71c4bbbb9d793688ce3a
+    m_Address: 48x48/arrow_02b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffea3a4e8eae8764e98bb9b0a4c62331
+    m_Address: 48x48/gloves_01b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeb3d913f0e3ef347804aaa01036fe3f
+    m_Address: Tower/FlutteringPixieIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb48d69660d731a42bc9ce4d4d0af00c
+    m_Address: Tower/GoblinOccultistIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77dfa3b1af5fa514dbf7a5b9ecc68659
+    m_Address: Tower/FloatingEyeIdleFront.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba47a0b9970fb3d429940f16ae8de20a
+    m_Address: 48x48/candle_01b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3616620a92fbda4499997293da74ce8b
+    m_Address: 48x48/staff_02d.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a21b4979e518f074db3261f4d8c2c225
+    m_Address: 48x48/spellbook_01b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cc4f8dd594243f44ad16dbfdaa3cc33
+    m_Address: 48x48/coin_02d.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff7a5bcafc99e8a45addbf1f7085c5ce
+    m_Address: 48x48/stoneblock_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cdfa046a2d647140b47162112d2f306
+    m_Address: 48x48/leaf_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4905d7e910ff40441a509fd0257790a9
+    m_Address: 48x48/shield_01b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 762483b2592e33447b6ca413f448aa49
+    m_Address: 48x48/spellbook_02e.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b394eee5b301e0e489a95310bdd36580
+    m_Address: 48x48/potion_01c.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22b016709cb51344d91a0b4011e456b6
+    m_Address: 48x48/fruit_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5092cef3523c90048926021d4ac6fd01
+    m_Address: 48x48/flower_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb2cf6e5a98f4bf4282be1474838ad6c
+    m_Address: Mob/CroakingToadIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8593f731512c8b48a912798a40a7ff7
+    m_Address: Mob/LeapingFrogIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5f969e670815d54eb3eb53a83ae4688
+    m_Address: Mob/FaithfulDogIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb6d69b000f71204cbabb109b82c5253
+    m_Address: Mob/MadBoarIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 899d1e74edd8e184b8054a4b6a10c71f
+    m_Address: Mob/SlowTurtleIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68668017eac67ac4ba4d018e95a856a5
+    m_Address: Mob/SnowFoxIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f4a0f4afc9f2ba4eb19c9fc771b1a50
+    m_Address: Mob/StinkySkunkIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a318fea36036f748b5ce9d884894164
+    m_Address: Mob/SpikeyPorcupineIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fb1b8fb9294efe4095bb0cb30bb5e90
+    m_Address: Mob/TimberWolfIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50784cde97001444ebc9d90e8ae76a03
+    m_Address: Mob/MajesticMooseIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8dea201f7c3a83499e5053c544b345d
+    m_Address: Humanoid II Basic Asset Pack/Elf Archmage/ElfArchmageIdleSide.gif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46f6e1cc925571e44b6bd0a58df891f9
+    m_Address: Tower/ElfArchmageIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3f9301f3ce92564f8096d962010a296
+    m_Address: 48x48/shield_02b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e8366a771b4fe74abe5c00af22a6109
+    m_Address: Tower/VenomousChimeraIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a9bce737667e7242a2107f78f94823c
+    m_Address: 48x48/crystal_01a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3cfe553b1d6af2459385a4fc34f6a15
+    m_Address: Assets/Animations/Projectile/code25/code25.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9db7712f5ad266f4c9875e48447bae47
+    m_Address: Tower/SwordArchonIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef870f16812bd3e4e85918061cc5b4e4
+    m_Address: 48x48/spellbook_03b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92b8a77bd69ec5446962782d20673a5b
+    m_Address: 48x48/shield_03b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d3bb9cd4b8e8ed44960b742d6f2f6eb
+    m_Address: Tower/PeerlessSolarIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ac9ca2700acdfa45b4b34d38253aa9e
+    m_Address: Tower/ArchFiendIdleFront.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e7d6713b94c3c4f88d82ce0001e3c0
+    m_Address: 48x48/book_03a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1466685a9e7d4414c88edef5d57900a4
+    m_Address: Mob/clawedabominationidle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 145b4eafeaefe2a449060ad66a5d37ab
+    m_Address: Mob/Nefarious ScampIdleFront.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d54a0bdaa65bb4d41bf993529e9c41e8
+    m_Address: Mob/GrinningGremlinFrontIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 557d2542abd68cd488ec10acb1aefec5
+    m_Address: Mob/FoulGougerFrontIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08907eac9ea09de4bad7fb388ba86cda
+    m_Address: Mob/GoblinFanaticIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fed86862f064a34f8e4cc12a15ede9d
+    m_Address: Mob/GoblinWolfRiderIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d2ecd349bcc7c34ea42ee92dd155864
+    m_Address: Mob/HobgoblinBrawlerIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7575c070dfd45444e83fade2cf5acb8e
+    m_Address: Mob/HobgoblinGruntIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e615667a3b780b7458b2062a5db67b88
+    m_Address: Mob/OrcJuggernautIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac0817701b82ab94c854448576046a66
+    m_Address: Mob/OrcSavageIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d284e425ad5d42d439b612c9dc964047
+    m_Address: Mob/OrcShamanIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ba47575c051dde438db721cfbcb0d78
+    m_Address: Mob/LizardfolkSpearmanIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af4da89490d731b40ada46d836619205
+    m_Address: Mob/LizardfolkGladiatorIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c0905f7fcc6fb34b969721457ce39c7
+    m_Address: Mob/LizardfolkTrackerIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e793c4af7ef63d848b08389a9da5b427
+    m_Address: Mob/MerfolkAquamancerIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9849e3c38992ce941b1db7d3641a9457
+    m_Address: Mob/MerfolkImpalerIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b81f31489d28e1f46beeac1965c9099e
+    m_Address: Mob/MerfolkMysticIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceff95996575bc64fa1dafd4ff2fb457
+    m_Address: Mob/MerfolkScoutIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6173256571303942893081e958b65ad
+    m_Address: Mob/MerfolkWavemasterIdleSide.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e72d149398ee43f4090170d1d75aa279
+    m_Address: Assets/Sound/COLORALPHA 50 Menu Interface SFX/COLORALPHA 50 Menu Interface
+      SFX/WAV/MI_SFX 32.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21157804ef5afe14eb2bcaabc8074950
+    m_Address: Assets/Sound/mainBGM/Intro.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80637fe5ecb9d164a9d8c84b7872af32
+    m_Address: Assets/Sound/mainBGM/Climbing The Citadel.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e29ab1d88ff9704fb8664128ade8ed6
+    m_Address: Assets/Sound/mainBGM/Elemental Duel 6-29.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9a1a4fdf167d3c4499f0260b6879525
+    m_Address: Assets/Sound/mainBGM/Entering The Citadel.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4a0326bae0d1524996ab5399a79edea
+    m_Address: Assets/Sound/mainBGM/Finale.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eded01369ad524a4583e55d44dd6b9aa
+    m_Address: Assets/Sound/mainBGM/Frozen Lake.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 077b3a545c803a74e90dc4310dd42555
+    m_Address: Assets/Sound/mainBGM/Hidden Area 29.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bacf40053c7b13645ab2fdbdb16df65c
+    m_Address: Assets/Sound/mainBGM/Hunt For Success.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b8747feef7f4834db34813cec0e943b
+    m_Address: Assets/Sound/mainBGM/Raindrop 6 29.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50223c092df9d684c9bc461f48dcf06e
+    m_Address: Assets/Sound/mainBGM/The Tower 29.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 448c4f047515c3149b2c533284fdc1b6
+    m_Address: Assets/Sound/mainBGM/Up a Tree.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 198249b0cb235ac4a8ee2c55ef9554cb
+    m_Address: Assets/Sound/mainBGM/West Forest 6-29.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4719b215b22126f40831556741c640e7
+    m_Address: Default
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f645e85066ec53408bd9065d23f4435
+    m_Address: Tower/WaterElementalIdle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1f0e34db5df1b449ac7b1d1b3d9d5fb
+    m_Address: 48x48/shard_01e.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58000ad75b3d1c64fa99d32de918bb72
+    m_Address: Projectile/code17.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68bcf4a46ae9b384bbc9680eeebc4de1
+    m_Address: Projectile/code18.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d96fd9c93a02444282b27b18e1e7023
+    m_Address: Projectile/code19.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0e8c78f4dd9e8241945b215133746bf
+    m_Address: Projectile/code20.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41502fb69dcf507408484063e728a2d9
+    m_Address: Projectile/code21.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 995b9db28ac40104695e615e16289f48
+    m_Address: Projectile/code22.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ee3111b300392744a9d085db83bd0d4
+    m_Address: Projectile/code27.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d87c12517df07d440987f929e8a7b565
+    m_Address: Projectile/code25.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01656f48dd4babe4a8264e2d56596c41
+    m_Address: Projectile/code28.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 603fe6ea5cb1eb243a02a3ff352af513
+    m_Address: Projectile/code29.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27cc0ed05b7c52b4e9ef6596ba518b8d
+    m_Address: Projectile/code30.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 830b1cde6f607e145a2b8b917c5fc400
+    m_Address: Projectile/code26.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

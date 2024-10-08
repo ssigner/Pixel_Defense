@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class ObjectPool : MonoBehaviour
 {
     public GameObject prefab; // 재사용할 프리팹
-    public int poolSize = 10; // 풀 크기
+    public int poolSize = 30; // 풀 크기
 
     private List<GameObject> objectPool = new List<GameObject>();
 

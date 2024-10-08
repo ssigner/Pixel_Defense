@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DiamondPattern
+  m_Controller: {fileID: 9100000, guid: 08906ad491fc28a4b90f2ef59fda61a5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 61498cf349322e94ab5df7a4a691bd70, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 70e5ab27ee9d99b40af9ebd20b0f596e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 98c0eec7efbbeaf44a35466fac9ac1e0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a151de2f31ab10b41ba2ff652af7f41f, type: 2}

@@ -22,6 +22,4 @@ public class DIMono : MonoBehaviour
     {
         CheckInject();
         Init();
-
-
     }}

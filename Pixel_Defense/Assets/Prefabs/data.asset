@@ -14,73 +14,2777 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towers:
   - code: 1
-    name: "\uC77C\uBC18 \uAE30\uC0AC"
-    price: 3
-    towerType: 1
-    atkRange:
-      min: 0
-      max: 1
+    name: "\uAE30\uC0AC\uC9C0\uB9DD\uC0DD"
+    price: 100
+    hyperPrice: 0
+    grade: 0
+    towerClass: 0
+    atk: 2
+    atkSpeed: 2
+    atkRange: 2.5
+    prefabPath: Tower/ElfLordIdleSide.prefab
+    spritePath: HumanoidBasic[Humanoid Basic 4x_3]
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code1.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
   - code: 2
-    name: "\uC77C\uBC18 \uB9C8\uBC95\uC0AC"
-    price: 4
-    towerType: 0
-    atkRange:
-      min: 0
-      max: 2
+    name: "\uB300\uBA38\uB9AC\uB178\uC778"
+    price: 100
+    hyperPrice: 0
+    grade: 0
+    towerClass: 0
+    atk: 4
+    atkSpeed: 1
+    atkRange: 4
+    prefabPath: Tower/JovialFriarIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_0]"
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code2.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
   - code: 3
-    name: "\uC77C\uBC18 \uC0AC\uC81C"
-    price: 3
-    towerType: 0
-    atkRange:
-      min: 0
-      max: 3
+    name: "\uB3CC\uD314\uC774\uC758\uC0AC"
+    price: 100
+    hyperPrice: 0
+    grade: 0
+    towerClass: 1
+    atk: 0
+    atkSpeed: 0
+    atkRange: 2.5
+    prefabPath: Tower/GnomeTinkererIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC[Free 4x_5]"
+    typeSpritePath: 48x48/book_01a.png
+    projectilePrefabPath: Projectile/code2.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
   - code: 4
-    name: "\uACE0\uAE09 \uAE30\uC0AC"
-    price: 6
-    towerType: 1
-    atkRange:
-      min: 0
-      max: 2
+    name: "\uD558\uAE09\uACE8\uB818"
+    price: 100
+    hyperPrice: 0
+    grade: 0
+    towerClass: 2
+    atk: 1.5
+    atkSpeed: 0.5
+    atkRange: 5
+    prefabPath: Tower/EarthElementalIdle.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_0]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code4.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
   - code: 5
-    name: "\uACE0\uAE09 \uB9C8\uBC95\uC0AC"
-    price: 8
-    towerType: 0
-    atkRange:
-      min: 0
-      max: 4
+    name: "\uACE0\uBE14\uB9B0\uAD81\uC218"
+    price: 100
+    hyperPrice: 0
+    grade: 0
+    towerClass: 3
+    atk: 3
+    atkSpeed: 1.5
+    atkRange: 4
+    prefabPath: Tower/GoblinArcherIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC[Free 4x_6]"
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code5.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
   - code: 6
-    name: "\uACE0\uAE09 \uC0AC\uC81C"
-    price: 6
-    towerType: 0
-    atkRange:
-      min: 0
-      max: 6
+    name: "\uC30D\uAC80\uC784\uD504"
+    price: 100
+    hyperPrice: 0
+    grade: 0
+    towerClass: 3
+    atk: 0.5
+    atkSpeed: 4
+    atkRange: 2.5
+    prefabPath: Tower/BladeHellionIdleFront.prefab
+    spritePath: Demon[free sprites 4x_4]
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code6.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 7
+    name: "\uACAC\uC2B5\uAE30\uC0AC"
+    price: 200
+    hyperPrice: 1
+    grade: 1
+    towerClass: 0
+    atk: 4
+    atkSpeed: 2.5
+    atkRange: 3
+    prefabPath: Tower/RadiantPaladinIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_14]"
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code7.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 8
+    name: "\uB300\uB9C8\uBC95\uC0AC\uC758 \uC870\uC218"
+    price: 200
+    hyperPrice: 1
+    grade: 1
+    towerClass: 0
+    atk: 6
+    atkSpeed: 1.5
+    atkRange: 6
+    prefabPath: Tower/ElegantDamselIdleSide.prefab
+    spritePath: HumanoidBasic[Humanoid Basic 4x_17]
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code8.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 9
+    name: "\uC131\uACBD\uC77D\uAE30 1\uB144\uCC28"
+    price: 200
+    hyperPrice: 1
+    grade: 1
+    towerClass: 1
+    atk: 0
+    atkSpeed: 0
+    atkRange: 4
+    prefabPath: Tower/ZealousPriestIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_2]"
+    typeSpritePath: 48x48/book_01a.png
+    projectilePrefabPath: Projectile/code7.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 10
+    name: "\uC544\uC774\uC2A4\uACE8\uB818"
+    price: 200
+    hyperPrice: 1
+    grade: 1
+    towerClass: 2
+    atk: 2.5
+    atkSpeed: 1.5
+    atkRange: 3.5
+    prefabPath: Tower/IceGolemIdle.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_3]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code10.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 11
+    name: "\uB9AC\uC790\uB4DC\uB9E8\uAD81\uC218"
+    price: 200
+    hyperPrice: 1
+    grade: 1
+    towerClass: 3
+    atk: 5
+    atkSpeed: 2
+    atkRange: 5
+    prefabPath: Tower/LizardfolkArcherIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC[Free 4x_12]"
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code11.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 12
+    name: "\uC774\uB984\uC5C6\uB294\uC545\uB9C8"
+    price: 200
+    hyperPrice: 1
+    grade: 1
+    towerClass: 3
+    atk: 2
+    atkSpeed: 4.5
+    atkRange: 2.5
+    prefabPath: Tower/ProngedFuryIdleFront.prefab
+    spritePath: Demon[free sprites 4x_10]
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code12.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 13
+    name: "\uC131\uAE30\uC0AC"
+    price: 400
+    hyperPrice: 2
+    grade: 2
+    towerClass: 0
+    atk: 6
+    atkSpeed: 3
+    atkRange: 4
+    prefabPath: Tower/BraveKnightIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_15]"
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code13.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 14
+    name: "\uB300\uB9C8\uBC95\uC0AC"
+    price: 400
+    hyperPrice: 2
+    grade: 2
+    towerClass: 0
+    atk: 9
+    atkSpeed: 1.75
+    atkRange: 7
+    prefabPath: Tower/ElfEnchanterIdleSide.prefab
+    spritePath: HumanoidBasic[Humanoid Basic 4x_2]
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code14.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 15
+    name: "\uB300\uC0AC\uC81C"
+    price: 400
+    hyperPrice: 2
+    grade: 2
+    towerClass: 1
+    atk: 0
+    atkSpeed: 0
+    atkRange: 5.5
+    prefabPath: Tower/AnointedHighPriestIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_5]"
+    typeSpritePath: 48x48/book_01a.png
+    projectilePrefabPath: Projectile/code13.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 16
+    name: "\uD30C\uC774\uC5B4\uACE8\uB818"
+    price: 400
+    hyperPrice: 2
+    grade: 2
+    towerClass: 2
+    atk: 11
+    atkSpeed: 1.5
+    atkRange: 5
+    prefabPath: Tower/FireElementalIdle.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_4]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code16.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 17
+    name: "\uC6CC\uD130\uACE8\uB818"
+    price: 400
+    hyperPrice: 2
+    grade: 2
+    towerClass: 2
+    atk: 10
+    atkSpeed: 2
+    atkRange: 5
+    prefabPath: Tower/WaterElementalIdle.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_2]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code30.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 18
+    name: "\uB180\uB3C4\uB07C\uBCD1"
+    price: 400
+    hyperPrice: 2
+    grade: 2
+    towerClass: 3
+    atk: 4
+    atkSpeed: 5
+    atkRange: 4
+    prefabPath: Tower/GnollGruntIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC[Free 4x_16]"
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code17.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 19
+    name: "\uB8E8\uC2DC\uD37C\uC758\uBD80\uAD00"
+    price: 400
+    hyperPrice: 2
+    grade: 2
+    towerClass: 3
+    atk: 7
+    atkSpeed: 2
+    atkRange: 5
+    prefabPath: Tower/SpikedRavagerIdleFront.prefab
+    spritePath: Demon[free sprites 4x_16]
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code18.prefab
+    hidden:
+      list: 
+    recipe: 
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 20
+    name: "\uC815\uB839\uC220\uC0AC"
+    price: 400
+    hyperPrice: 0
+    grade: 3
+    towerClass: 2
+    atk: 9
+    atkSpeed: 2.5
+    atkRange: 4
+    prefabPath: Tower/expert druid.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_10]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code19.prefab
+    hidden:
+      list: 04000000040000000a000000
+    recipe: "\uD558\uAE09\uACE8\uB818 2q\uC544\uC774\uC2A4\uACE8\uB818 1"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 21
+    name: "\uD558\uAE09\uCC9C\uC0AC"
+    price: 400
+    hyperPrice: 0
+    grade: 3
+    towerClass: 0
+    atk: 4
+    atkSpeed: 2.5
+    atkRange: 4
+    prefabPath: Tower/ResoluteAngelIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_7]"
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code20.prefab
+    hidden:
+      list: 0700000009000000
+    recipe: "\uACAC\uC2B5\uAE30\uC0AC 1q\uC131\uACBD\uC77D\uAE30 1\uB144\uCC28 1"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 22
+    name: "\uB098\uBB34\uC815\uB839"
+    price: 400
+    hyperPrice: 0
+    grade: 3
+    towerClass: 2
+    atk: 2
+    atkSpeed: 2
+    atkRange: 6
+    prefabPath: Tower/GrizzledTreantIdle.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_14]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code21.prefab
+    hidden:
+      list: 04000000040000000400000004000000
+    recipe: "\uD558\uAE09\uACE8\uB818 4"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 23
+    name: "\uAF2C\uB9C8\uC694\uC815"
+    price: 400
+    hyperPrice: 0
+    grade: 3
+    towerClass: 2
+    atk: 3
+    atkSpeed: 3
+    atkRange: 4
+    prefabPath: Tower/FlutteringPixieIdle.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_12]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code22.prefab
+    hidden:
+      list: 040000000400000008000000
+    recipe: "\uD558\uAE09\uACE8\uB818 2q\uB300\uB9C8\uBC95\uC0AC\uC758 \uC870\uC218
+      1"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 24
+    name: "\uACE0\uBE14\uB9B0\uC8FC\uC220\uC0AC"
+    price: 400
+    hyperPrice: 0
+    grade: 3
+    towerClass: 3
+    atk: 8
+    atkSpeed: 2
+    atkRange: 5
+    prefabPath: Tower/GoblinOccultistIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC[Free 4x_8]"
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code22.prefab
+    hidden:
+      list: 05000000050000000c000000
+    recipe: "\uACE0\uBE14\uB9B0\uAD81\uC218 2q\uC774\uB984\uC5C6\uB294\uC545\uB9C8
+      1"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 25
+    name: "\uC8FC\uC2DC\uD558\uB294 \uB208"
+    price: 400
+    hyperPrice: 0
+    grade: 3
+    towerClass: 3
+    atk: 0
+    atkSpeed: 0
+    atkRange: 4
+    prefabPath: Tower/FloatingEyeIdleFront.prefab
+    spritePath: Demon[free sprites 4x_2]
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code22.prefab
+    hidden:
+      list: 06000000060000000600000006000000
+    recipe: "\uC30D\uAC80\uC784\uD504 4"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 26
+    name: "2\uC30D\uB0A0\uAC1C\uCC9C\uC0AC"
+    price: 800
+    hyperPrice: 0
+    grade: 3
+    towerClass: 0
+    atk: 6
+    atkSpeed: 3.5
+    atkRange: 5
+    prefabPath: Tower/SwordArchonIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_8]"
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code25.prefab
+    hidden:
+      list: 1500000015000000
+    recipe: "\uD558\uAE09\uCC9C\uC0AC 2"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 27
+    name: "\uAD50\uD669"
+    price: 1600
+    hyperPrice: 0
+    grade: 4
+    towerClass: 1
+    atk: 0
+    atkSpeed: 0
+    atkRange: 12
+    prefabPath: Tower/ElfArchmageIdleSide.prefab
+    spritePath: HumanoidBasic[Humanoid Basic 4x_18]
+    typeSpritePath: 48x48/book_01a.png
+    projectilePrefabPath: Projectile/code22.prefab
+    hidden:
+      list: 0f0000000f0000000f0000000f000000
+    recipe: "\uB300\uC0AC\uC81C 4"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 28
+    name: "\uC57C\uC218\uC655"
+    price: 1600
+    hyperPrice: 0
+    grade: 4
+    towerClass: 2
+    atk: 12
+    atkSpeed: 5.5
+    atkRange: 5
+    prefabPath: Tower/VenomousChimeraIdle.prefab
+    spritePath: "\uD0C0\uC6CC3[free 4x_18]"
+    typeSpritePath: 48x48/flower_02a.png
+    projectilePrefabPath: Projectile/code27.prefab
+    hidden:
+      list: 10000000110000001400000017000000
+    recipe: "\uD30C\uC774\uC5B4\uACE8\uB818 1q\uC6CC\uD130\uACE8\uB818 1q\uC815\uB839\uC220\uC0AC
+      1q\uAF2C\uB9C8\uC694\uC815 1"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 29
+    name: "\uAC00\uBE0C\uB9AC\uC5D8"
+    price: 1600
+    hyperPrice: 0
+    grade: 4
+    towerClass: 0
+    atk: 10
+    atkSpeed: 3.5
+    atkRange: 7
+    prefabPath: Tower/PeerlessSolarIdleSide.prefab
+    spritePath: "\uD0C0\uC6CC2[Free Sprites 4x_18]"
+    typeSpritePath: 48x48/helmet_01a.png
+    projectilePrefabPath: Projectile/code28.prefab
+    hidden:
+      list: 1a0000001a000000
+    recipe: "2\uC30D\uB0A0\uAC1C\uCC9C\uC0AC 2"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
+  - code: 30
+    name: "\uB8E8\uC2DC\uD37C"
+    price: 1600
+    hyperPrice: 0
+    grade: 4
+    towerClass: 3
+    atk: 6
+    atkSpeed: 6
+    atkRange: 6
+    prefabPath: Tower/ArchFiendIdleFront.prefab
+    spritePath: Demon[free sprites 4x_18]
+    typeSpritePath: 48x48/skull_01a.png
+    projectilePrefabPath: Projectile/code29.prefab
+    hidden:
+      list: 13000000190000001a000000
+    recipe: "\uB8E8\uC2DC\uD37C\uC758\uBD80\uAD00 1q\uC8FC\uC2DC\uD558\uB294 \uB208
+      1q2\uC30D\uB0A0\uAC1C\uCC9C\uC0AC 1"
+    skill:
+      code: 0
+      imagePath: 
+      coolTime: 0
+      script: 
+      fx: 0
+      target: 0
+      isPercentage: 0
+      fxParam:
+        list: []
+      buffType: 0
+      targetParam:
+        list: []
+      percentParam: 0
   monsters:
   - code: 1
-    name: "1\uB2E8\uACC4"
+    name: "\uB2ED"
     hp: 10
     def: 1
-    speed: 1
+    speed: 2
     prefabPath: Mob/CluckingChickenIdleSide.prefab
     scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
   - code: 2
-    name: "2\uB2E8\uACC4"
-    hp: 15
-    def: 1
-    speed: 1
-    prefabPath: Mob/CluckingChickenIdleSide.prefab
-    scale: 8
-  - code: 3
-    name: "3\uB2E8\uACC4"
-    hp: 20
-    def: 1
-    speed: 1
-    prefabPath: Mob/CluckingChickenIdleSide.prefab
-    scale: 8
-  - code: 4
-    name: "4\uB2E8\uACC4"
+    name: "\uB3FC\uC9C0"
     hp: 25
     def: 1
-    speed: 1
-    prefabPath: Mob/CluckingChickenIdleSide.prefab
+    speed: 2
+    prefabPath: Mob/DaintyPigIdleSide.prefab
     scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 3
+    name: "\uC624\uB9AC"
+    hp: 40
+    def: 1
+    speed: 2
+    prefabPath: Mob/HonkingGooseIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 4
+    name: "\uC5FC\uC18C"
+    hp: 55
+    def: 1
+    speed: 2
+    prefabPath: Mob/NibblingGoatIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 5
+    name: "\uC591"
+    hp: 70
+    def: 1
+    speed: 2
+    prefabPath: Mob/PasturingSheepIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 6
+    name: "\uC816\uC18C"
+    hp: 85
+    def: 1
+    speed: 2
+    prefabPath: Mob/GrazingCowIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 7
+    name: "\uC6D0\uC22D\uC774"
+    hp: 100
+    def: 1
+    speed: 2
+    prefabPath: Mob/CuriousMonkeyIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 8
+    name: "\uACE0\uC591\uC774"
+    hp: 115
+    def: 1
+    speed: 2
+    prefabPath: Mob/MeowingCatIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 9
+    name: "\uAF43\uAC8C"
+    hp: 130
+    def: 1
+    speed: 2
+    prefabPath: Mob/CoralCrabIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 10
+    name: "\uD0A4\uC548\uACE0(\uBCF4\uC2A4)"
+    hp: 2000
+    def: 1
+    speed: 2
+    prefabPath: Mob/HulkingGorillaIdleSide.prefab
+    scale: 8
+    atk: 50
+    mobGageY: 2.63
+    gageScale: 6
+  - code: 11
+    name: "\uAC1C\uAD6C\uB9AC"
+    hp: 300
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/LeapingFrogIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 12
+    name: "\uB450\uAEBC\uBE44"
+    hp: 320
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/CroakingToadIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 13
+    name: "\uAC1C"
+    hp: 340
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/FaithfulDogIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 14
+    name: "\uBA67\uB3FC\uC9C0"
+    hp: 360
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/MadBoarIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 15
+    name: "\uAC70\uBD81\uC774"
+    hp: 380
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/SlowTurtleIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 16
+    name: "\uC5EC\uC6B0"
+    hp: 400
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/SnowFoxIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 17
+    name: "\uC2A4\uCEF9\uD06C"
+    hp: 420
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/StinkySkunkIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 18
+    name: "\uD638\uC800"
+    hp: 440
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/SpikeyPorcupineIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 19
+    name: "\uB291\uB300"
+    hp: 460
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/TimberWolfIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 20
+    name: "\uD30C\uB09C(\uBCF4\uC2A4)"
+    hp: 9000
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/MajesticMooseIdleSide.prefab
+    scale: 8
+    atk: 50
+    mobGageY: 2.63
+    gageScale: 6
+  - code: 21
+    name: "\uB291\uB300"
+    hp: 700
+    def: 1
+    speed: 3
+    prefabPath: Mob/TimberWolfIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 22
+    name: "\uC545\uB9C8\uC2DC\uC885"
+    hp: 800
+    def: 1
+    speed: 3
+    prefabPath: Mob/clawedabominationidle.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 23
+    name: "\uD558\uAE09\uC784\uD504"
+    hp: 900
+    def: 1
+    speed: 3
+    prefabPath: Mob/Nefarious ScampIdleFront.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 24
+    name: "\uC784\uD504"
+    hp: 1000
+    def: 1
+    speed: 3
+    prefabPath: Mob/GrinningGremlinFrontIdle.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 25
+    name: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4"
+    hp: 1100
+    def: 1
+    speed: 3
+    prefabPath: Mob/FoulGougerFrontIdle.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 26
+    name: "\uACE0\uBE14\uB9B0\uAC04\uC218"
+    hp: 1200
+    def: 1
+    speed: 3
+    prefabPath: Mob/GoblinFanaticIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 27
+    name: "\uC6B8\uD504\uB77C\uC774\uB354"
+    hp: 1300
+    def: 1
+    speed: 3
+    prefabPath: Mob/GoblinWolfRiderIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 28
+    name: "\uD649\uACE0\uBE14\uB9B0"
+    hp: 1400
+    def: 1
+    speed: 3
+    prefabPath: Mob/HobgoblinBrawlerIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 29
+    name: "\uD649\uACE0\uBE14\uB9B0\uAC74\uB2EC"
+    hp: 1500
+    def: 1
+    speed: 3
+    prefabPath: Mob/HobgoblinGruntIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 30
+    name: "\uCFE0\uB974\uAC08(\uBCF4\uC2A4)"
+    hp: 20000
+    def: 1
+    speed: 2.5
+    prefabPath: Mob/OrcJuggernautIdleSide.prefab
+    scale: 8
+    atk: 50
+    mobGageY: 2.63
+    gageScale: 6
+  - code: 31
+    name: "\uC624\uD06C\uB3C4\uB07C\uBCD1"
+    hp: 2000
+    def: 1
+    speed: 3.5
+    prefabPath: Mob/OrcSavageIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 32
+    name: "\uC624\uD06C\uCC3D\uBCD1"
+    hp: 2200
+    def: 1
+    speed: 3.5
+    prefabPath: Mob/OrcShamanIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 33
+    name: "\uB9AC\uC790\uB4DC\uB9E8\uCC3D\uBCD1"
+    hp: 2400
+    def: 1
+    speed: 3.5
+    prefabPath: Mob/LizardfolkSpearmanIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 34
+    name: "\uB9AC\uC790\uB4DC\uB9E8\uAD81\uC218"
+    hp: 2600
+    def: 1
+    speed: 3.5
+    prefabPath: Mob/LizardfolkGladiatorIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 35
+    name: "\uB4DC\uB77C\uCF54\uC2A4(\uBCF4\uC2A4)"
+    hp: 25000
+    def: 1
+    speed: 3
+    prefabPath: Mob/LizardfolkTrackerIdleSide.prefab
+    scale: 8
+    atk: 50
+    mobGageY: 2.63
+    gageScale: 6
+  - code: 36
+    name: "\uBA38\uBA54\uC774\uB4DC\uC2DC\uC885"
+    hp: 3000
+    def: 1
+    speed: 3
+    prefabPath: Mob/MerfolkAquamancerIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 37
+    name: "\uBA38\uBA54\uC774\uB4DC\uCC3D\uBCD1"
+    hp: 3300
+    def: 1
+    speed: 4
+    prefabPath: Mob/MerfolkImpalerIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 38
+    name: "\uBA38\uBA54\uC774\uB4DC\uB9C8\uBC95\uC0AC"
+    hp: 3600
+    def: 1
+    speed: 4
+    prefabPath: Mob/MerfolkMysticIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 39
+    name: "\uBA38\uBA54\uC774\uB4DC\uCE5C\uC704\uB300"
+    hp: 3900
+    def: 1
+    speed: 4
+    prefabPath: Mob/MerfolkScoutIdleSide.prefab
+    scale: 8
+    atk: 5
+    mobGageY: 1.24
+    gageScale: 3
+  - code: 40
+    name: "\uC544\uCFE0\uC544\uB9AC\uC544(\uBCF4\uC2A4)"
+    hp: 30000
+    def: 1
+    speed: 3
+    prefabPath: Mob/MerfolkWavemasterIdleSide.prefab
+    scale: 8
+    atk: 50
+    mobGageY: 2.63
+    gageScale: 6
+  stages:
+  - code: 1
+    mobCode: 1
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 2
+    mobCode: 2
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 3
+    mobCode: 3
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 4
+    mobCode: 4
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 5
+    mobCode: 5
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 6
+    mobCode: 6
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 7
+    mobCode: 7
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 8
+    mobCode: 8
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 9
+    mobCode: 9
+    mobNum: 40
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 10
+    mobCode: 10
+    mobNum: 1
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 11
+    mobCode: 11
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 12
+    mobCode: 12
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 13
+    mobCode: 13
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 14
+    mobCode: 14
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 15
+    mobCode: 15
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 16
+    mobCode: 16
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 17
+    mobCode: 17
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 18
+    mobCode: 18
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 19
+    mobCode: 19
+    mobNum: 45
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 20
+    mobCode: 20
+    mobNum: 1
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 21
+    mobCode: 21
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 22
+    mobCode: 22
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 23
+    mobCode: 23
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 24
+    mobCode: 24
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 25
+    mobCode: 25
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 26
+    mobCode: 26
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 27
+    mobCode: 27
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 28
+    mobCode: 28
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 29
+    mobCode: 29
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 30
+    mobCode: 30
+    mobNum: 1
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 31
+    mobCode: 31
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 32
+    mobCode: 32
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 33
+    mobCode: 33
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 34
+    mobCode: 34
+    mobNum: 50
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 35
+    mobCode: 35
+    mobNum: 1
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 36
+    mobCode: 36
+    mobNum: 55
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 37
+    mobCode: 37
+    mobNum: 55
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 38
+    mobCode: 38
+    mobNum: 55
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 39
+    mobCode: 39
+    mobNum: 55
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  - code: 40
+    mobCode: 40
+    mobNum: 1
+    monster:
+      code: 0
+      name: 
+      hp: 0
+      def: 0
+      speed: 0
+      prefabPath: 
+      scale: 0
+      atk: 0
+      mobGageY: 0
+      gageScale: 0
+  skills:
+  - code: 1
+    imagePath: 48x48/sword_01a.png
+    coolTime: 10
+    script: "5\uCD08\uB3D9\uC548 \uC790\uC2E0\uC758q\uACF5\uACA9\uB825\uC744 3 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 0
+    target: 0
+    isPercentage: 0
+    fxParam:
+      list:
+      - 5
+      - 3
+    buffType: 1
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 2
+    imagePath: 48x48/staff_01a.png
+    coolTime: 5
+    script: "\uACF5\uACA9\uD55C \uBAAC\uC2A4\uD130q \uBC94\uC704 3 \uB0B4\uC758q\uBAA8\uB4E0
+      \uBAAC\uC2A4\uD130\uB4E4\uC5D0\uAC8Cq10\uC758 \uD53C\uD574\uB97C \uC900\uB2E4."
+    fx: 1
+    target: 1
+    isPercentage: 0
+    fxParam:
+      list:
+      - 10
+    buffType: 0
+    targetParam:
+      list:
+      - 3
+      - 0
+    percentParam: -1
+  - code: 3
+    imagePath: 48x48/spellbook_01a.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uB825\uC744q3 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 3
+    buffType: 1
+    targetParam:
+      list:
+      - 2.5
+    percentParam: -1
+  - code: 4
+    imagePath: 48x48/shard_01h.png
+    coolTime: -1
+    script: "\uACF5\uACA9\uC744 \uB9DE\uC740 \uBAAC\uC2A4\uD130\uB294q2\uCD08\uAC04
+      \uC18D\uB3C4\uAC00 30% \uAC10\uC18C\uD55C\uB2E4."
+    fx: 6
+    target: 3
+    isPercentage: 0
+    fxParam:
+      list:
+      - 2
+      - 30
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 5
+    imagePath: 48x48/arrow_02a.png
+    coolTime: 5
+    script: "\uD558\uB098\uC758 \uBAAC\uC2A4\uD130\uC5D0\uAC8Cq20 \uD53C\uD574\uB97C
+      \uC900\uB2E4."
+    fx: 1
+    target: 3
+    isPercentage: 0
+    fxParam:
+      list:
+      - 20
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 6
+    imagePath: 48x48/gloves_01a.png
+    coolTime: 10
+    script: "5\uCD08\uB3D9\uC548 \uC790\uC2E0\uC758 \uACF5\uACA9\uC18D\uB3C4\uB97Cq30%
+      \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 0
+    target: 0
+    isPercentage: 0
+    fxParam:
+      list:
+      - 5
+      - 30
+    buffType: 2
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 7
+    imagePath: 48x48/sword_01b.png
+    coolTime: 12
+    script: "7\uCD08\uB3D9\uC548 \uC790\uC2E0\uC758 \uACF5\uACA9\uB825\uC744q6 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 0
+    target: 0
+    isPercentage: 0
+    fxParam:
+      list:
+      - 7
+      - 6
+    buffType: 1
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 8
+    imagePath: 48x48/staff_02b.png
+    coolTime: 5
+    script: "\uACF5\uACA9\uD55C \uBAAC\uC2A4\uD130q\uBC94\uC704 6 \uB0B4\uC758q\uBAA8\uB4E0
+      \uBAAC\uC2A4\uD130\uB4E4\uC5D0\uAC8Cq25\uC758 \uD53C\uD574\uB97C \uC900\uB2E4."
+    fx: 1
+    target: 1
+    isPercentage: 0
+    fxParam:
+      list:
+      - 25
+    buffType: 0
+    targetParam:
+      list:
+      - 6
+    percentParam: -1
+  - code: 9
+    imagePath: 48x48/spellbook_01e.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uB825\uC744q6 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 6
+    buffType: 1
+    targetParam:
+      list:
+      - 4
+    percentParam: -1
+  - code: 10
+    imagePath: 48x48/shard_01c.png
+    coolTime: -1
+    script: "\uACF5\uACA9\uC744 \uB9DE\uC740 \uBAAC\uC2A4\uD130\uB294q1\uCD08\uAC04
+      \uBA48\uCD98\uB2E4."
+    fx: 6
+    target: 3
+    isPercentage: 0
+    fxParam:
+      list:
+      - 1
+      - 100
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 11
+    imagePath: 48x48/arrow_02b.png
+    coolTime: 5
+    script: "\uD558\uB098\uC758 \uBAAC\uC2A4\uD130\uC5D0\uAC8Cq60 \uD53C\uD574\uB97C
+      \uC900\uB2E4."
+    fx: 1
+    target: 3
+    isPercentage: 0
+    fxParam:
+      list:
+      - 60
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 12
+    imagePath: 48x48/gloves_01b.png
+    coolTime: 12
+    script: "7\uCD08\uB3D9\uC548 \uC790\uC2E0\uC758 \uACF5\uACA9\uC18D\uB3C4\uB97Cq40%
+      \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 0
+    target: 0
+    isPercentage: 0
+    fxParam:
+      list:
+      - 7
+      - 40
+    buffType: 2
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 13
+    imagePath: 48x48/candle_01b.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uC18D\uB3C4\uB97Cq5% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 5
+    buffType: 2
+    targetParam:
+      list:
+      - 4
+    percentParam: -1
+  - code: 14
+    imagePath: 48x48/staff_02d.png
+    coolTime: 4
+    script: "\uACF5\uACA9\uD55C \uBAAC\uC2A4\uD130q\uBC94\uC704 9 \uB0B4\uC758q\uBAA8\uB4E0
+      \uBAAC\uC2A4\uD130\uB4E4\uC5D0\uAC8Cq50\uC758 \uD53C\uD574\uB97C \uC900\uB2E4."
+    fx: 1
+    target: 1
+    isPercentage: 0
+    fxParam:
+      list:
+      - 50
+    buffType: 0
+    targetParam:
+      list:
+      - 9
+    percentParam: -1
+  - code: 15
+    imagePath: 48x48/spellbook_01b.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uB825\uC744q8 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 8
+    buffType: 1
+    targetParam:
+      list:
+      - 5.5
+    percentParam: -1
+  - code: 16
+    imagePath: 48x48/shard_01d.png
+    coolTime: -1
+    script: "10% \uD655\uB960\uB85Cq\uBAAC\uC2A4\uD130\uC758 \uCCB4\uB825\uC744q99%
+      \uAC10\uC18C\uC2DC\uD0A8\uB2E4."
+    fx: 7
+    target: 3
+    isPercentage: 1
+    fxParam:
+      list:
+      - 99
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: 10
+  - code: 17
+    imagePath: 48x48/shard_01e.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uC18D\uB3C4\uB97Cq4% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 4
+    buffType: 2
+    targetParam:
+      list:
+      - 5
+    percentParam: -1
+  - code: 18
+    imagePath: 48x48/coin_02d.png
+    coolTime: -1
+    script: "\uBAAC\uC2A4\uD130 \uCC98\uCE58\uC2DCq10% \uD655\uB960\uB85Cq20\uACE8\uB4DC\uB97C
+      \uC5BB\uB294\uB2E4."
+    fx: 3
+    target: 3
+    isPercentage: 1
+    fxParam:
+      list:
+      - 20
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: 10
+  - code: 19
+    imagePath: 48x48/stoneblock_01a.png
+    coolTime: -1
+    script: "\uBAAC\uC2A4\uD130 \uCC98\uCE58\uC2DCq15% \uD655\uB960\uB85Cq5\uCCA0\uAD34\uB97C
+      \uC5BB\uB294\uB2E4."
+    fx: 4
+    target: 3
+    isPercentage: 1
+    fxParam:
+      list:
+      - 5
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: 15
+  - code: 20
+    imagePath: 48x48/flower_01a.png
+    coolTime: -1
+    script: "\uBAAC\uC2A4\uD130 \uCC98\uCE58\uC2DCq5% \uD655\uB960\uB85Cq50\uACE8\uB4DC\uB97C
+      \uC5BB\uB294\uB2E4."
+    fx: 3
+    target: 3
+    isPercentage: 1
+    fxParam:
+      list:
+      - 50
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: 5
+  - code: 21
+    imagePath: 48x48/shield_01b.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uB825\uC744q5 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 1
+    fxParam:
+      list:
+      - 5
+    buffType: 1
+    targetParam:
+      list:
+      - 4
+    percentParam: -1
+  - code: 22
+    imagePath: 48x48/leaf_01a.png
+    coolTime: -1
+    script: "\uACF5\uACA9\uC744 \uB9DE\uC740 \uBAAC\uC2A4\uD130\uB294q2\uCD08\uAC04
+      \uBA48\uCD98\uB2E4."
+    fx: 6
+    target: 3
+    isPercentage: 0
+    fxParam:
+      list:
+      - 2
+      - 100
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 23
+    imagePath: 48x48/fruit_01a.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uC18D\uB3C4\uB97Cq10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 10
+    buffType: 2
+    targetParam:
+      list:
+      - 4
+    percentParam: -1
+  - code: 24
+    imagePath: 48x48/potion_01c.png
+    coolTime: -1
+    script: "\uBAAC\uC2A4\uD130 \uCC98\uCE58\uC2DCq10% \uD655\uB960\uB85Cq4\uCCA0\uAD34\uB97C
+      \uC5BB\uB294\uB2E4."
+    fx: 4
+    target: 3
+    isPercentage: 1
+    fxParam:
+      list:
+      - 4
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: 10
+  - code: 25
+    imagePath: 48x48/spellbook_02e.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uBAAC\uC2A4\uD130\uC758 \uC18D\uB3C4\uB97Cq20%
+      \uAC10\uC18C\uC2DC\uD0A8\uB2E4."
+    fx: 6
+    target: 1
+    isPercentage: 0
+    fxParam:
+      list:
+      - 20
+    buffType: 0
+    targetParam:
+      list:
+      - 4
+    percentParam: -1
+  - code: 26
+    imagePath: 48x48/spellbook_03b.png
+    coolTime: 4
+    script: "\uD558\uB098\uC758 \uBAAC\uC2A4\uD130\uC5D0\uAC8Cq150 \uD53C\uD574\uB97C
+      \uC900\uB2E4."
+    fx: 1
+    target: 3
+    isPercentage: 0
+    fxParam:
+      list:
+      - 150
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  - code: 27
+    imagePath: 48x48/shield_02b.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uB825\uC744q15 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 15
+    buffType: 1
+    targetParam:
+      list:
+      - 12
+    percentParam: -1
+  - code: 28
+    imagePath: 48x48/crystal_01a.png
+    coolTime: -1
+    script: "\uBAAC\uC2A4\uD130 \uCC98\uCE58\uC2DCq1% \uD655\uB960\uB85Cq1\uC5D0\uBA54\uB784\uB4DC\uB97C
+      \uC5BB\uB294\uB2E4."
+    fx: 8
+    target: 3
+    isPercentage: 1
+    fxParam:
+      list:
+      - 1
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: 1
+  - code: 29
+    imagePath: 48x48/shield_03b.png
+    coolTime: -1
+    script: "\uACF5\uACA9 \uBC94\uC704 \uB0B4\uC758q\uC544\uAD70\uD0C0\uC6CC\uC758
+      \uACF5\uACA9\uC18D\uB3C4\uB97Cq20% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    fx: 2
+    target: 2
+    isPercentage: 0
+    fxParam:
+      list:
+      - 20
+    buffType: 2
+    targetParam:
+      list:
+      - 7
+    percentParam: -1
+  - code: 30
+    imagePath: 48x48/book_03a.png
+    coolTime: 5
+    script: "\uD558\uB098\uC758 \uBAAC\uC2A4\uD130\uC5D0\uAC8Cq666 \uD53C\uD574\uB97C
+      \uC900\uB2E4."
+    fx: 1
+    target: 3
+    isPercentage: 0
+    fxParam:
+      list:
+      - 666
+    buffType: 0
+    targetParam:
+      list:
+      - 0
+    percentParam: -1
+  upgradePriest:
+  - level: 1
+    val: 1.5
+    cost: 10
+  - level: 2
+    val: 3
+    cost: 12
+  - level: 3
+    val: 4.5
+    cost: 14
+  - level: 4
+    val: 6
+    cost: 16
+  - level: 5
+    val: 7.5
+    cost: 18
+  - level: 6
+    val: 9
+    cost: 20
+  - level: 7
+    val: 10.5
+    cost: 22
+  - level: 8
+    val: 12
+    cost: 24
+  - level: 9
+    val: 13.5
+    cost: 26
+  - level: 10
+    val: 15
+    cost: 28
+  - level: 11
+    val: 16.5
+    cost: 30
+  - level: 12
+    val: 18
+    cost: 32
+  - level: 13
+    val: 19.5
+    cost: 34
+  - level: 14
+    val: 21
+    cost: 36
+  - level: 15
+    val: 22.5
+    cost: 38
+  - level: 16
+    val: 24
+    cost: 40
+  - level: 17
+    val: 25.5
+    cost: 42
+  - level: 18
+    val: 27
+    cost: 44
+  - level: 19
+    val: 28.5
+    cost: 46
+  - level: 20
+    val: 30
+    cost: 48
+  - level: 21
+    val: 31.5
+    cost: 50
+  - level: 22
+    val: 33
+    cost: 52
+  - level: 23
+    val: 34.5
+    cost: 54
+  - level: 24
+    val: 36
+    cost: 56
+  - level: 25
+    val: 37.5
+    cost: 58
+  - level: 26
+    val: 39
+    cost: 60
+  - level: 27
+    val: 40.5
+    cost: 62
+  - level: 28
+    val: 42
+    cost: 64
+  - level: 29
+    val: 43.5
+    cost: 66
+  - level: 30
+    val: 45
+    cost: 68
+  upgradeHuman:
+  - level: 1
+    val: 3
+    cost: 10
+  - level: 2
+    val: 6
+    cost: 12
+  - level: 3
+    val: 9
+    cost: 14
+  - level: 4
+    val: 12
+    cost: 16
+  - level: 5
+    val: 15
+    cost: 18
+  - level: 6
+    val: 18
+    cost: 20
+  - level: 7
+    val: 21
+    cost: 22
+  - level: 8
+    val: 24
+    cost: 24
+  - level: 9
+    val: 27
+    cost: 26
+  - level: 10
+    val: 30
+    cost: 28
+  - level: 11
+    val: 33
+    cost: 30
+  - level: 12
+    val: 36
+    cost: 32
+  - level: 13
+    val: 39
+    cost: 34
+  - level: 14
+    val: 42
+    cost: 36
+  - level: 15
+    val: 45
+    cost: 38
+  - level: 16
+    val: 48
+    cost: 40
+  - level: 17
+    val: 51
+    cost: 42
+  - level: 18
+    val: 54
+    cost: 44
+  - level: 19
+    val: 57
+    cost: 46
+  - level: 20
+    val: 60
+    cost: 48
+  - level: 21
+    val: 63
+    cost: 50
+  - level: 22
+    val: 66
+    cost: 52
+  - level: 23
+    val: 69
+    cost: 54
+  - level: 24
+    val: 72
+    cost: 56
+  - level: 25
+    val: 75
+    cost: 58
+  - level: 26
+    val: 78
+    cost: 60
+  - level: 27
+    val: 81
+    cost: 62
+  - level: 28
+    val: 84
+    cost: 64
+  - level: 29
+    val: 87
+    cost: 66
+  - level: 30
+    val: 90
+    cost: 68
+  upgradeSpirit:
+  - level: 1
+    val: 3
+    cost: 10
+  - level: 2
+    val: 6
+    cost: 12
+  - level: 3
+    val: 9
+    cost: 14
+  - level: 4
+    val: 12
+    cost: 16
+  - level: 5
+    val: 15
+    cost: 18
+  - level: 6
+    val: 18
+    cost: 20
+  - level: 7
+    val: 21
+    cost: 22
+  - level: 8
+    val: 24
+    cost: 24
+  - level: 9
+    val: 27
+    cost: 26
+  - level: 10
+    val: 30
+    cost: 28
+  - level: 11
+    val: 33
+    cost: 30
+  - level: 12
+    val: 36
+    cost: 32
+  - level: 13
+    val: 39
+    cost: 34
+  - level: 14
+    val: 42
+    cost: 36
+  - level: 15
+    val: 45
+    cost: 38
+  - level: 16
+    val: 48
+    cost: 40
+  - level: 17
+    val: 51
+    cost: 42
+  - level: 18
+    val: 54
+    cost: 44
+  - level: 19
+    val: 57
+    cost: 46
+  - level: 20
+    val: 60
+    cost: 48
+  - level: 21
+    val: 63
+    cost: 50
+  - level: 22
+    val: 66
+    cost: 52
+  - level: 23
+    val: 69
+    cost: 54
+  - level: 24
+    val: 72
+    cost: 56
+  - level: 25
+    val: 75
+    cost: 58
+  - level: 26
+    val: 78
+    cost: 60
+  - level: 27
+    val: 81
+    cost: 62
+  - level: 28
+    val: 84
+    cost: 64
+  - level: 29
+    val: 87
+    cost: 66
+  - level: 30
+    val: 90
+    cost: 68
+  upgradeNotHuman:
+  - level: 1
+    val: 3
+    cost: 10
+  - level: 2
+    val: 6
+    cost: 12
+  - level: 3
+    val: 9
+    cost: 14
+  - level: 4
+    val: 12
+    cost: 16
+  - level: 5
+    val: 15
+    cost: 18
+  - level: 6
+    val: 18
+    cost: 20
+  - level: 7
+    val: 21
+    cost: 22
+  - level: 8
+    val: 24
+    cost: 24
+  - level: 9
+    val: 27
+    cost: 26
+  - level: 10
+    val: 30
+    cost: 28
+  - level: 11
+    val: 33
+    cost: 30
+  - level: 12
+    val: 36
+    cost: 32
+  - level: 13
+    val: 39
+    cost: 34
+  - level: 14
+    val: 42
+    cost: 36
+  - level: 15
+    val: 45
+    cost: 38
+  - level: 16
+    val: 48
+    cost: 40
+  - level: 17
+    val: 51
+    cost: 42
+  - level: 18
+    val: 54
+    cost: 44
+  - level: 19
+    val: 57
+    cost: 46
+  - level: 20
+    val: 60
+    cost: 48
+  - level: 21
+    val: 63
+    cost: 50
+  - level: 22
+    val: 66
+    cost: 52
+  - level: 23
+    val: 69
+    cost: 54
+  - level: 24
+    val: 72
+    cost: 56
+  - level: 25
+    val: 75
+    cost: 58
+  - level: 26
+    val: 78
+    cost: 60
+  - level: 27
+    val: 81
+    cost: 62
+  - level: 28
+    val: 84
+    cost: 64
+  - level: 29
+    val: 87
+    cost: 66
+  - level: 30
+    val: 90
+    cost: 68
+  tutorialScript:
+  - step: 0
+    script: "\uD654\uBA74 \uC0C1\uB2E8\uC785\uB2C8\uB2E4.q\uAC8C\uC784\uC885\uB8CC\uBC84\uD2BCq
+      \uD604\uC7AC \uC2A4\uD14C\uC774\uC9C0\uC640\uB4F1\uC7A5 \uBAAC\uC2A4\uD130\uC758
+      \uC774\uB984q \uB0A8\uC740 \uBAAC\uC2A4\uD130 \uC218q\uAC01\uC885\uC7AC\uD654\uB4E4\uC774
+      \uD45C\uC2DC\uB429\uB2C8\uB2E4."
+    isButtonHide: 0
+    hideTransImg: 0
+    goToNextScript: 0
+  - step: 0
+    script: "\uD654\uBA74 \uD558\uB2E8\uC785\uB2C8\uB2E4.q\uBC30\uC18D\uC870\uC808\uBC84\uD2BCq\uAC8C\uC784\uC774
+      \uCD1D \uC9C4\uD589\uB41C \uC2DC\uAC04q\uD50C\uB808\uC774\uC5B4 \uCCB4\uB825\uC774
+      \uD45C\uC2DC\uB429\uB2C8\uB2E4."
+    isButtonHide: 0
+    hideTransImg: 0
+    goToNextScript: 0
+  - step: 0
+    script: "\uD654\uBA74 \uC6B0\uCE21\uC785\uB2C8\uB2E4.q\uAC8C\uC784\uC9C4\uD589\uC5D0
+      \uD544\uC694\uD55C \uBC84\uD2BC\uC774 \uC788\uC73C\uBA70q\uC774\uD6C4 \uC790\uC138\uD788
+      \uC124\uBA85\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4."
+    isButtonHide: 0
+    hideTransImg: 0
+    goToNextScript: 0
+  - step: 0
+    script: "\uD654\uBA74\uC740 \uC2A4\uD06C\uB864\uB85Cq \uD655\uB300, \uCD95\uC18C\uAC00
+      \uAC00\uB2A5\uD569\uB2C8\uB2E4."
+    isButtonHide: 0
+    hideTransImg: 0
+    goToNextScript: 0
+  - step: 1
+    script: "\uD0C0\uC6CC \uAD6C\uB9E4\uC5D0 \uB300\uD574 \uC124\uBA85\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4."
+    isButtonHide: 0
+    hideTransImg: 0
+    goToNextScript: 0
+  - step: 1
+    script: "\uBA3C\uC800 \uD0C0\uC6CC \uAD6C\uB9E4 \uBC84\uD2BC\uC744q\uD074\uB9AD
+      \uD574 \uBCFC\uAE4C\uC694?"
+    isButtonHide: 1
+    hideTransImg: 1
+    goToNextScript: 0
+  - step: 1
+    script: "\uD0C0\uC6CC \uAD6C\uB9E4 \uCC3D\uC774q\uD65C\uC131\uD654 \uB418\uC5C8\uC2B5\uB2C8\uB2E4.q\uD0C0\uC6CC
+      \uC544\uC774\uCF58\uC744 \uD074\uB9AD\uD574q\uD0C0\uC6CC\uB97C \uAD6C\uB9E4
+      \uD574 \uBCFC\uAE4C\uC694?"
+    isButtonHide: 1
+    hideTransImg: 1
+    goToNextScript: 0
+  - step: 1
+    script: "\uD0C0\uC6CC\uAC00 \uC18C\uD658\uB418\uC5C8\uC2B5\uB2C8\uB2E4.q\uC18C\uD658\uB41C
+      \uD0C0\uC6CC\uB97C \uD074\uB9AD\uD574q\uD0C0\uC6CC \uC815\uBCF4\uB97C \uBCFC\uAE4C\uC694?"
+    isButtonHide: 1
+    hideTransImg: 1
+    goToNextScript: 0
+  - step: 1
+    script: .
+    isButtonHide: 0
+    hideTransImg: 0
+    goToNextScript: 0

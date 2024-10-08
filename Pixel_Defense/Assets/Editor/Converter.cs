@@ -104,14 +104,17 @@ public static class Converter
                 {
                     var value = table.Rows[i][fieldIdx];
 
+                    if (value is DBNull) {
+                        continue;
+                    }
+
                     var fieldType = fieldInfo.FieldType;
 
-                    var valueStr = value as string;
 
                     if (fieldType.GetInterface("IFillFromStr") != null)
                     {
                         var fieldObj = System.Activator.CreateInstance(fieldType) as IFillFromStr;
-                        fieldObj.fillFromStr(value as string);
+                        fieldObj.fillFromStr(value.ToString());
                         value = fieldObj;
 
                     }

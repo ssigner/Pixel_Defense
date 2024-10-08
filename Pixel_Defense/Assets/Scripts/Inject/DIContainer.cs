@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Unity.VisualScripting;
+using UnityEngine.SocialPlatforms;
 
 [AttributeUsage(AttributeTargets.Field)]
 class Inject : Attribute
@@ -12,7 +13,7 @@ class Inject : Attribute
     public string key;
     public Inject()
     {
-        key = null;
+        key = "";
     }
 
     public Inject(string key)
@@ -32,7 +33,7 @@ public class InjectObj
         if (isInjected)
             return;
         isInjected = true;
-        DIContainer.Current.Inject(o);
+        DIContainer.Inject(o);
 
     }
 }
@@ -61,33 +62,20 @@ public class DIContainer
 
     Dictionary<string, object> objContianer = new Dictionary<string, object>();
 
-    public static string GenKey<T>()
+
+    private static string GenKey(Type fieldType, string key="")
     {
-        return typeof(T).Name;
+        return fieldType.Name + "__" + key;
     }
 
-    public static string GenKey(Type type)
-    {
-        return type.Name;
-    }
-    private string GenKey(Type fieldType, string key)
-    {
-        return GenKey(fieldType) + "__" + key;
-    }
-
-
-    public static string GenKey<T>(string name)
-    {
-        return GenKey(typeof(T)) + "__" + name;
-    }
 
     public void Regist<T>(T obj)
     {
-        objContianer.Add(GenKey<T>(), obj);
+        objContianer.Add(GenKey(typeof(T)), obj);
     }
     public void Regist<T>(T obj,string name)
     {
-        objContianer.Add(GenKey<T>(name), obj);
+        objContianer.Add(GenKey(typeof(T),name), obj);
     }
 
 
@@ -96,33 +84,59 @@ public class DIContainer
     public object Get(Type type, string key)
     {
         key=GenKey(type, key);
-        if (objContianer.ContainsKey(key) == false && this != Global)
+        if (objContianer.ContainsKey(key)  )
         {
-            return Global.Get(type, key);
+            return objContianer[key];
         }
 
-        return objContianer[key];
+        return null;
+    }
+
+    public bool Has(Type type,string key)
+    {
+        string dKey = GenKey(type, key);
+
+        return objContianer.ContainsKey(dKey);
     }
 
 
     public object Get(Type type)
     {
         var  key = GenKey(type);
-        if (objContianer.ContainsKey(key) == false && this !=Global)
+        if (objContianer.ContainsKey(key)  )
         {
-            return Global.Get(type);
+            return objContianer[key];
         }
 
-        return objContianer[key];
+        return null;
     }
 
 
     public T Get<T>(string name) where T : class
     {
-        return objContianer[GenKey<T>(name)] as T;
+        return objContianer[GenKey(typeof(T),name)] as T;
     }
 
-    public void Inject(object o)
+
+    public static object GetValue(Type fieldType, string key="")
+    {
+        object value = null;
+
+
+        if (DIContainer.Current != null)
+        {
+            value = DIContainer.Current.Get(fieldType, key);
+        }
+
+        if (value == null)
+        {
+            value = Global.Get(fieldType, key);
+        }
+
+        return value;
+    }
+
+    public static void Inject(object o)
     {
         Type type = o.GetType();
 
@@ -133,15 +147,11 @@ public class DIContainer
             
             if(injectObj == null) continue;
 
-            object value;
+            object value= GetValue(fieldType, injectObj.key);
 
-            if (string.IsNullOrEmpty(injectObj.key))
+            if (value == null)
             {
-                value = Get(fieldType);
-            }
-            else
-            {
-                value = Get(fieldType, injectObj.key);
+                throw new Exception("등록되지 않은 값입니다. "+fieldType.Name + " "+ injectObj.key);
             }
 
             field.SetValue(o, value);
