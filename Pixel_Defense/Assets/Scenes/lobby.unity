@@ -5360,8 +5360,8 @@ GameObject:
   - component: {fileID: 396907568}
   - component: {fileID: 396907567}
   - component: {fileID: 396907566}
-  - component: {fileID: 396907569}
   - component: {fileID: 396907564}
+  - component: {fileID: 396907569}
   m_Layer: 5
   m_Name: yesBtn
   m_TagString: Untagged
@@ -5447,8 +5447,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396907569}
-        m_TargetAssemblyTypeName: GoToTutorial, Assembly-CSharp
-        m_MethodName: Click
+        m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
+        m_MethodName: GoToScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5505,9 +5505,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 396907562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c26cec080c770f448b5b8f5789d27ca, type: 3}
+  m_Script: {fileID: 11500000, guid: f8a83c4ad05776341a833f4ddd67dde4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneType: 3
 --- !u!1 &399767318
 GameObject:
   m_ObjectHideFlags: 0
@@ -14076,18 +14077,18 @@ PrefabInstance:
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 987491312}
+      objectReference: {fileID: 987491316}
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Click
+      value: GoToScene
       objectReference: {fileID: 0}
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GoToTowerDictionary, Assembly-CSharp
+      value: SceneNavigator, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -14110,7 +14111,7 @@ PrefabInstance:
       addedObject: {fileID: 987491311}
     - targetCorrespondingSourceObject: {fileID: 5012935542241422585, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 987491312}
+      addedObject: {fileID: 987491316}
   m_SourcePrefab: {fileID: 100100000, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
 --- !u!224 &987491306 stripped
 RectTransform:
@@ -14141,7 +14142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btnSound: 0
---- !u!114 &987491312
+--- !u!114 &987491316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14150,9 +14151,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 893853099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6c8a1fda55185b4a89883be94a5316a, type: 3}
+  m_Script: {fileID: 11500000, guid: f8a83c4ad05776341a833f4ddd67dde4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneType: 2
 --- !u!1 &989804382
 GameObject:
   m_ObjectHideFlags: 0

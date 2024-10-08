@@ -36,14 +36,7 @@ public class Lobby : DIMono
 
     public void GameStart()
     {
-/*        if(settingData.tutorialPlayed == 0 || settingData.tutorialPlayed == null)
-        {
-            gotoTutorial.SetActive(true);
-            foreach(var btn in lobbyButtons)
-            {
-                btn.interactable = false;
-            }
-        }*/
+
         SceneChanger.LoadScene("InGame",  SceneChanger.LoadingScene.DiamondPattern);
         audioManager.PlayBGM(SettingData.BgmNames[settingData.bgmIdx]);
 

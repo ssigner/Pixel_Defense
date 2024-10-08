@@ -524,11 +524,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Click
+      value: GoToScene
       objectReference: {fileID: 0}
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GoToLobby, Assembly-CSharp
+      value: SceneNavigator, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3863263590008105162, guid: 9fad1e00c9d8559459dc24118d565fc4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -585,9 +585,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 566543238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9998e0a828eedd94f8b7c476ea90ca25, type: 3}
+  m_Script: {fileID: 11500000, guid: f8a83c4ad05776341a833f4ddd67dde4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneType: 1
 --- !u!1 &653702439
 GameObject:
   m_ObjectHideFlags: 0
