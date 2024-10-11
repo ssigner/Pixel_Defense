@@ -43,7 +43,7 @@ public class UI_HiddenTowerCell : DIMono
         menuUI.SetActive(false);
         TowerPlacer.StartPlace(tower, towerImg.sprite);
         Debug.Log("selected hidden Tower : " + tower.name);
-        towerManager.hiddenComb(selectedTower, tower);
+        towerManager.HiddenComb(selectedTower, tower);
 
         UI_TowerInfo.isHiddenBtnClicked = false;
         hiddenTowerUI.gameObject.SetActive(false);

@@ -30,11 +30,11 @@ public class HiddenTowerComb : DIMono
             Hide();
         }
         selectedTower = UI_towerInfo.towerUnit;
-        var canSummonHiddenList = towerManager.findHiddenCombTower(selectedTower);
+        var canSummonHiddenList = towerManager.FindHiddenCombTower(selectedTower);
         Debug.Log(canSummonHiddenList);
         if (canSummonHiddenList == null)
         {
-            towerManager.popupCombFailedUI(combFailedUI);
+            towerManager.PopupCombFailedUI(combFailedUI);
             return;
         }
         Show();

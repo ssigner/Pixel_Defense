@@ -11,13 +11,9 @@ public class UI_TowerList : DIMono
 
     [Inject]
     GameData gameData;
-
     public Tower.Grade grade;
-
     public GridLayoutGroup gridLayout;
-
     GameObject protoItem;
-
     public List<UI_TowerCell> UI_TowerCells;
 
     protected override void Init()
@@ -36,8 +32,8 @@ public class UI_TowerList : DIMono
             if(tower.grade == Tower.Grade.Normal)
             {
                 cell.shortcut_key.text = (index + 1).ToString();
-                UI_TowerCells.Add(cell);
             }
+            UI_TowerCells.Add(cell);
             index++;
 
         }
@@ -51,7 +47,6 @@ public class UI_TowerList : DIMono
 
         }
         return gridLayout.transform.GetChild(idx).GetComponent<UI_TowerCell>();
-
     }
 
     private void Update()

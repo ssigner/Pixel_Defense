@@ -55,7 +55,7 @@ public class TowerManager : DIMono
         }
     }
 
-    public void summonTower(Tower towerData, Vector3Int towerPlace, GameObject towerPrefab)
+    public void SummonTower(Tower towerData, Vector3Int towerPlace, GameObject towerPrefab)
     {
         Vector3 realPlace = towerPlace + new Vector3(1, 0f);
         var towerObj = Instantiate(towerPrefab, realPlace, Quaternion.identity);
@@ -77,7 +77,7 @@ public class TowerManager : DIMono
             towerUnit=  towerUnit
         });
     }
-    private TowerUnit findNearGradeTower(TowerUnit selectedTower)
+    private TowerUnit FindNearGradeTower(TowerUnit selectedTower)
     {
         if (towerUnits.Count <= 1) return null;
         float minDistance = 99999f;
@@ -104,12 +104,12 @@ public class TowerManager : DIMono
         return neareastTower;
     }
     //normalComb
-    public bool normalCombTower(TowerUnit selectedTower, GameObject combFailedUI)
+    public bool NormalCombTower(TowerUnit selectedTower, GameObject combFailedUI)
     {
-        var targetTower = findNearGradeTower(selectedTower);
+        var targetTower = FindNearGradeTower(selectedTower);
         if (targetTower == null || selectedTower.Tower.grade == Tower.Grade.Unique || selectedTower.Tower.grade == Tower.Grade.Hidden)
         {
-            popupCombFailedUI(combFailedUI);
+            PopupCombFailedUI(combFailedUI);
             return false;
         }
 
@@ -124,15 +124,15 @@ public class TowerManager : DIMono
             combTower = UniqueTowers.OrderBy(g => Guid.NewGuid()).Take(1).ToList();
         }
         var combTowerPrefab = Addressables.LoadAssetAsync<GameObject>(combTower[0].prefabPath).WaitForCompletion();
-        summonTower(combTower[0], selectedTower.currentPlace, combTowerPrefab);
+        SummonTower(combTower[0], selectedTower.currentPlace, combTowerPrefab);
         selectedTower.gameObject.GetComponent<UI_TowerInfoTrigger>().hideTowerAtkRange();
 
-        removeTower(selectedTower);
-        removeTower(targetTower, true);
+        RemoveTower(selectedTower);
+        RemoveTower(targetTower, true);
         return true;
     }
 
-    public void popupCombFailedUI(GameObject combFailedUI)
+    public void PopupCombFailedUI(GameObject combFailedUI)
     {
         audioManager.Play("FailedPopUp");
         StartCoroutine(IsInvalidComb(combFailedUI));
@@ -148,13 +148,13 @@ public class TowerManager : DIMono
         combFailedUI.SetActive(false);
     }
 
-    public void hiddenComb(TowerUnit selectedTower, Tower selectedHiddenTower)
+    public void HiddenComb(TowerUnit selectedTower, Tower selectedHiddenTower)
     {
-        var partsList = findHiddenPartsList(selectedTower, selectedHiddenTower);
+        var partsList = FindHiddenPartsList(selectedTower, selectedHiddenTower);
         selectedTower.gameObject.GetComponent<UI_TowerInfoTrigger>().hideTowerAtkRange();
         foreach (TowerUnit part in partsList)
         {
-            removeTower(part, true);
+            RemoveTower(part, true);
         }
         if (playData.checkDistinct(selectedHiddenTower.code))
         {
@@ -162,7 +162,7 @@ public class TowerManager : DIMono
         }
     }
 
-    private List<TowerUnit> findHiddenPartsList(TowerUnit selectedTower, Tower selectedHiddenTower)
+    private List<TowerUnit> FindHiddenPartsList(TowerUnit selectedTower, Tower selectedHiddenTower)
     {
         int recipeIdx = 0;
         List<int> hiddenRecipe = new();
@@ -173,7 +173,7 @@ public class TowerManager : DIMono
         var selectedTowerIdx = hiddenRecipe.IndexOf(selectedTower.Tower.code);
         hiddenRecipe.RemoveAt(selectedTowerIdx);
 
-        List<Pair<int,int>> currentSummonedTowerCode = findCurrentTowerCode();
+        List<Pair<int,int>> currentSummonedTowerCode = FindCurrentTowerCode();
         currentSummonedTowerCode.Sort((x, y) => x.First.CompareTo(y.First));
         for (int i = 0; i < currentSummonedTowerCode.Count; i++)
         {
@@ -188,16 +188,16 @@ public class TowerManager : DIMono
         return resultList;
     }
 
-    public List<Tower> findHiddenCombTower(TowerUnit selectedTower)
+    public List<Tower> FindHiddenCombTower(TowerUnit selectedTower)
     {
         List<Tower> canCombList = new List<Tower>();
-        List<Pair<int,int>> currentSummonedTowerCode = findCurrentTowerCode();
+        List<Pair<int,int>> currentSummonedTowerCode = FindCurrentTowerCode();
         var selectedTowerCode = selectedTower.Tower.code;
 
         foreach(Tower hiddenTower in HiddenTowers)
         {
             if (!hiddenTower.hidden.Contains(selectedTowerCode)) continue;
-            if(canHiddenComb(hiddenTower.hidden.list, currentSummonedTowerCode)) canCombList.Add(hiddenTower);
+            if(CanHiddenComb(hiddenTower.hidden.list, currentSummonedTowerCode)) canCombList.Add(hiddenTower);
         }
 
         if(canCombList.Count <= 0) return null;
@@ -205,7 +205,7 @@ public class TowerManager : DIMono
         return canCombList;
     }
 
-    private List<Pair<int, int>> findCurrentTowerCode()
+    private List<Pair<int, int>> FindCurrentTowerCode()
     {
         List<Pair<int, int>> result = new();
         foreach (TowerUnit towerUnit in towerUnits)
@@ -215,7 +215,7 @@ public class TowerManager : DIMono
         return result;
     }
 
-    private bool canHiddenComb(List<int> hiddenRecipe, List<Pair<int, int>> currentSummonedTowerCode)
+    private bool CanHiddenComb(List<int> hiddenRecipe, List<Pair<int, int>> currentSummonedTowerCode)
     {
         hiddenRecipe.Sort();
         currentSummonedTowerCode.Sort((x, y) => x.First.CompareTo(y.First));
@@ -240,7 +240,7 @@ public class TowerManager : DIMono
         return true;
     }
 
-    private void removeTower(TowerUnit towerUnit, bool isTileFree=false)
+    private void RemoveTower(TowerUnit towerUnit, bool isTileFree=false)
     {
         towerUnits.Remove(towerUnit);
         if(isTileFree) towerPlacer.freeTile(towerUnit.currentPlace.ToVector2Int(), new Vector2Int(2, 2)); 
@@ -249,6 +249,6 @@ public class TowerManager : DIMono
 
     public void sellTower(TowerUnit towerUnit)
     {
-        removeTower(towerUnit, true);
+        RemoveTower(towerUnit, true);
     }
 }

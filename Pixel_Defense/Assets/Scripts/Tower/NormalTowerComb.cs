@@ -25,7 +25,7 @@ public class NormalTowerComb : DIMono
     public void clickCombBtn()
     {
         selectedTower = UI_towerInfo.towerUnit;
-        var combCheck = towerManager.normalCombTower(selectedTower, combFailedUI);
+        var combCheck = towerManager.NormalCombTower(selectedTower, combFailedUI);
         if (UI_towerInfo.gameObject.activeInHierarchy && combCheck)
         {
             UI_towerInfo.Hide();

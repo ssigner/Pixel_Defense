@@ -44,7 +44,7 @@ public class UI_TowerCell : DIMono
         else if(tower.price > stagePlayData.gold && tower.grade == Tower.Grade.Normal)
         {
             audioManager.Play("FailedPopUp");
-            popupBuyFailedUI();
+            PopupBuyFailedUI();
         }
         if (tower.hyperPrice <= stagePlayData.emelard && (tower.grade == Tower.Grade.Rare || tower.grade == Tower.Grade.Unique))
         {
@@ -55,7 +55,7 @@ public class UI_TowerCell : DIMono
         else if (tower.hyperPrice > stagePlayData.emelard && (tower.grade == Tower.Grade.Rare || tower.grade == Tower.Grade.Unique))
         {
             audioManager.Play("FailedPopUp");
-            popupBuyFailedUI();
+            PopupBuyFailedUI();
         }
     }
 
@@ -67,7 +67,7 @@ public class UI_TowerCell : DIMono
     {
         buyFailedUI.SetActive(false);
     }
-    void popupBuyFailedUI()
+    void PopupBuyFailedUI()
     {
         StartCoroutine(IsInvalidBuy());
     }

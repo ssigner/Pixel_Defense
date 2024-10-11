@@ -183,7 +183,7 @@ public class TowerPlacer : DIMono
         if (Time.time - startTime > 0.3f && Input.GetMouseButtonUp(0) && isPlaceable)
         {
             audioManager.Play("PlaceTower");
-            towerManager.summonTower(selectedTower, cellPos, towerPrefab);
+            towerManager.SummonTower(selectedTower, cellPos, towerPrefab);
             if(selectedTower.grade == Tower.Grade.Normal) stagePlayData.gold -= selectedTower.price;
             else if(selectedTower.grade == Tower.Grade.Rare || selectedTower.grade == Tower.Grade.Unique) stagePlayData.emelard -= selectedTower.hyperPrice;
             foreach (var pos in IterTiles(cellPos.ToVector2Int(), towerSize))

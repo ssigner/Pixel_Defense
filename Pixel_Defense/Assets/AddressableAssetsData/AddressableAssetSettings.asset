@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: eb32282a97b4ed343ac45e4707523062
   m_currentHash:
     serializedVersion: 2
-    Hash: d21a39a907b2f3cc711632137b3d6483
+    Hash: cade9bd12210dd0ee141410eed658b00
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -87,6 +87,13 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Mob
+    - Tower
+    - Tower&Mob
+    - Icon
+    - Projectile
+    - Shader
+    - Data
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 4aa2a76ff36818444ad451790a46631f, type: 2}

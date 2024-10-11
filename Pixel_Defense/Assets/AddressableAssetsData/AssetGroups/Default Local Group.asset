@@ -20,247 +20,296 @@ MonoBehaviour:
   - m_GUID: 005e8cf3e361e514b9c49a2d82f47071
     m_Address: Mob/CluckingChickenIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 91c324546eaa43548b92175b340807af
     m_Address: Assets/Prefabs/StageConfig.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d2ac37451fe0d654f8e206d1625c53d6
     m_Address: Mob/CoralCrabIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 70d4057baf0796246b882839de793373
     m_Address: Mob/CuriousMonkeyIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6684547c3e04a4e48870661be8e81cf0
     m_Address: Mob/DaintyPigIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e26a786bd0f723e4789bc854d35a8efe
     m_Address: Mob/GrazingCowIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ad5545f2c59676b4c8044f8d2890a4b5
     m_Address: Mob/HonkingGooseIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8a512df9ddec6a7418636194f7d42945
     m_Address: Mob/HulkingGorillaIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d85cf2b9181a0544ba9e49ac76228efd
     m_Address: Mob/MeowingCatIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f842b608f84dab94ca2933e7f15f486d
     m_Address: Mob/NibblingGoatIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e5abac9edea759940a0dfee9f0803552
     m_Address: Mob/PasturingSheepIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f42b7f98e48c1974686ac44a517b8fb8
     m_Address: Tower/ElfLordIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8a381e822cde06b4483ff7e5a5b8bbdd
     m_Address: HumanoidBasic
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fe4e5de89c4105b40824cbe8791cfd70
     m_Address: "\uD0C0\uC6CC2"
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b6316a82474233947b48c5e9b4872c41
     m_Address: "\uD0C0\uC6CC"
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cde70278f2df12744a946fd8744def2f
     m_Address: Tower/GnomeTinkererIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 97de057646d15a148ad3a31ace76ba87
     m_Address: Tower/JovialFriarIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bb798b842438e0040948ba9d8f63c006
     m_Address: "\uD0C0\uC6CC3"
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e02a93d1d0501dc46a019c7b85e7ae00
     m_Address: Tower/EarthElementalIdle.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 213ffbc15e87fde48b2f43797a41f258
     m_Address: Tower/RadiantPaladinIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3e1aa5ddca9570d47b4a6efc348d20c2
     m_Address: Tower/ElegantDamselIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a0f269201252a7049b7c1517bd19be59
     m_Address: Tower/ZealousPriestIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e85247d495a24b64fb0f56ab0555166a
     m_Address: Tower/IceGolemIdle.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec74f36ed6e7cc24384665a24f202ed0
     m_Address: Tower/BraveKnightIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 47c3a634100cc59428a4a04aa481a3a0
     m_Address: Tower/ElfEnchanterIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3507d0f08218d8449ab851a766ddc6fb
     m_Address: Tower/AnointedHighPriestIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d41e02aee6ab36141a6a32d736ee2f35
     m_Address: Tower/FireElementalIdle.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a6c60c84c7b8f1041866b9ad9d7db96c
     m_Address: Demon
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower&Mob
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eafacb4ec6b81784493604554c5d8669
     m_Address: Tower/BladeHellionIdleFront.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 40eb4036f28e4db42a48add4930f0765
     m_Address: Tower/GoblinArcherIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b95c4e1963765ce4eade38c50f600a78
     m_Address: Tower/LizardfolkArcherIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7ccac0ac0550eb24d863c3c47e06390a
     m_Address: Tower/ProngedFuryIdleFront.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3bb4aad0d70a61f40910d075c8b5160f
     m_Address: Tower/SpikedRavagerIdleFront.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e3c6317fa245dc34fb0178080606319b
     m_Address: Tower/GnollGruntIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9f489abc9f4898447b441d6596d58218
     m_Address: IconPack 1.2/Skills/Skills.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Icon
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 59cff1bb6e34321489804665b1958186
     m_Address: Projectile/code5.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Projectile
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8399d7e6a7942434698850ca75faa8d4
     m_Address: Materials/white.mat
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Shader
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2f1cb0348a6a1ec4d93da3ff90d466a1
     m_Address: Materials/outline.mat
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Shader
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5816cf6e9adcf34891938f310574b83
     m_Address: Projectile/code4.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Projectile
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 36c8cb3e692ec5048b96a09d514ec25c
     m_Address: Projectile/code2.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Projectile
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c236ace47444d1e42bce6a75e522689a
     m_Address: Projectile/code1.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Projectile
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 36687593c815e9b4cbb8f5c8d732ff80
     m_Address: Tower/expert druid.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 12ce33d6b78adb049a508fb8e039b9a9
     m_Address: Tower/ResoluteAngelIdleSide.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c2bd1d05b2e7aa64c829ac1f05ebbc7f
     m_Address: Tower/GrizzledTreantIdle.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Tower
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b1258ca86ee023b4999f4335a1e2340a
     m_Address: Assets/Prefabs/data.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Data
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5cd4ec93378244a4cbe9b72a3d692130
     m_Address: AllItems/Weapon/Sword/SwordOutline.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Icon
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 567e41fd3e7716544a8dccc2caf0b75e
     m_Address: AllItems/Weapon/Staff/StaffOutline.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Icon
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: af819116570f2ae40b78b15f7b90c14a
     m_Address: AllItems/Miscellaneous/Artifact/ArtifactOutline.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Icon
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a9d3587cefaa56749b47e1370b5aaa7b
     m_Address: 48x48/spellbook_01a.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Icon
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9fc6738a029432a4c945382daf8e6dd5
     m_Address: 48x48/staff_01a.png
