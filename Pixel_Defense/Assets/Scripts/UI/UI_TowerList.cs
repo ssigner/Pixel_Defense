@@ -57,7 +57,7 @@ public class UI_TowerList : DIMono
                 continue;
 
             // 키 입력 체크
-            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i) && grade == Tower.Grade.Normal)
             {
                 UI_TowerCells[i].Click();  // 해당 UI_TowerCells 인덱스의 Click() 호출
             }
