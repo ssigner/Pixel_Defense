@@ -48,7 +48,7 @@ public class UI_TowerCell : DIMono
         }
         else if (tower.grade == Tower.Grade.Rare || tower.grade == Tower.Grade.Unique)
         {
-            requiredResource = tower.price;
+            requiredResource = tower.hyperPrice;
             playerResource = stagePlayData.emelard;
         }
 
