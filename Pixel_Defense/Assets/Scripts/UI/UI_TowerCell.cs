@@ -35,26 +35,36 @@ public class UI_TowerCell : DIMono
 
     public void Click()
     {
-        if (tower.price <= stagePlayData.gold && tower.grade == Tower.Grade.Normal)
+        CheckInject();
+
+        bool canBuy = false;
+        int requiredResource = 0;
+        int playerResource = 0;
+
+        if(tower.grade == Tower.Grade.Normal)
+        {
+            requiredResource = tower.price;
+            playerResource = stagePlayData.gold;
+        }
+        else if (tower.grade == Tower.Grade.Rare || tower.grade == Tower.Grade.Unique)
+        {
+            requiredResource = tower.price;
+            playerResource = stagePlayData.emelard;
+        }
+
+        if(requiredResource <= playerResource)
+        {
+            canBuy = true;
+        }
+        if (canBuy)
         {
             audioManager.Play("BtnClickAndBuyUnit");
             menuUI.SetActive(false);
             TowerPlacer.StartPlace(tower, towerImg.sprite);
         }
-        else if(tower.price > stagePlayData.gold && tower.grade == Tower.Grade.Normal)
+        else
         {
-            audioManager.Play("FailedPopUp");
-            PopupBuyFailedUI();
-        }
-        if (tower.hyperPrice <= stagePlayData.emelard && (tower.grade == Tower.Grade.Rare || tower.grade == Tower.Grade.Unique))
-        {
-            audioManager.Play("BtnClickAndBuyUnit");
-            menuUI.SetActive(false);
-            TowerPlacer.StartPlace(tower, towerImg.sprite);
-        }
-        else if (tower.hyperPrice > stagePlayData.emelard && (tower.grade == Tower.Grade.Rare || tower.grade == Tower.Grade.Unique))
-        {
-            audioManager.Play("FailedPopUp");
+            audioManager.Play("FailedPopup");
             PopupBuyFailedUI();
         }
     }
