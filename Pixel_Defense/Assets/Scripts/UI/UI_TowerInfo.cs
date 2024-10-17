@@ -19,7 +19,7 @@ public class UI_TowerInfo : UI_TowerInfoBase
     public override void SetTower(Tower tower)
     {
         CheckInject();
-        setSprite(tower);
+        SetSprite(tower);
         towerName.text = tower.name;
         skill = gameData.skills.FirstOrDefault(I => I.code == tower.code);
 

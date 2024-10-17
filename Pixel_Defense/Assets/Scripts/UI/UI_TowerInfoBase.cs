@@ -48,9 +48,6 @@ public class UI_TowerInfoBase : DIMono
     [Inject]
     public GameData gameData;
 
-    [Inject]
-    public PlayData playData;
-
     public TowerInfoUIResouces towerInfoResouces;
     public Image towerFrame;
     public Image towerImage;
@@ -71,7 +68,7 @@ public class UI_TowerInfoBase : DIMono
     public virtual void SetTower(Tower tower)
     {
         CheckInject();
-        setSprite(tower);
+        SetSprite(tower);
         towerName.text = tower.name;
         skill = gameData.skills.FirstOrDefault(I => I.code == tower.code);
 
@@ -90,7 +87,7 @@ public class UI_TowerInfoBase : DIMono
 
     
 
-    protected void setSprite(Tower tower)
+    protected void SetSprite(Tower tower)
     {
         selectedTower = tower;
         var tRes = towerInfoResouces.GetTowerInfoFrame(tower.grade);
@@ -116,7 +113,7 @@ public class UI_TowerInfoBase : DIMono
 
     protected virtual void OnTowerSkillPointerEnter(PointerEventData pointerEventData)
     {
-        SkillUI.setStatusText(selectedTower);
+        SkillUI.SetStatusText(selectedTower);
         SkillUI.gameObject.GetComponent<RectTransform>().SetAsLastSibling();
         SkillUI.Show();
     }
@@ -144,7 +141,7 @@ public class UI_TowerInfoBase : DIMono
     }
     protected void OnTowerRecipePointerEnter(PointerEventData pointerEventData)
     {
-        RecipeUI.setStatusText(selectedTower);
+        RecipeUI.SetStatusText(selectedTower);
         RecipeUI.Show();
     }
 

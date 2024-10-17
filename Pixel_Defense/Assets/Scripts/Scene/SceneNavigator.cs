@@ -17,7 +17,8 @@ public class SceneNavigator : DIMono
     {
         Ingame,
         TowerDictionary,
-        Tutorial
+        Tutorial,
+        Lobby
     }
 
     public SceneType sceneType;
@@ -45,6 +46,10 @@ public class SceneNavigator : DIMono
                     audioManager.PlayBGM(SettingData.BgmNames[settingData.bgmIdx]);
                 }
                 break;
+            case SceneType.Lobby:
+                sceneChanger.LoadScene("lobby", SceneChanger.LoadingScene.DiamondPattern);
+                break;
+
         }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -90,7 +91,7 @@ public class TowerUnit : DIMono
         //2. 해당 디버프 코드를 가진 몹이 범위 밖을 벗어나면 해제
         foreach(var mob in mobManager.mobs)
         {
-            if(mob.hasThisDebuff(skill.code) && !isMobInRange(skill.targetParam[0], mob))
+            if(mob.hasThisDebuff(skill.code) && !IsMobInRange(skill.targetParam[0], mob))
             {
                 var debuffDegree = mob.Monster.speed * (skill.fxParam[0] / 100);
                 mob.debuffs.Remove(skill.code);
@@ -99,7 +100,7 @@ public class TowerUnit : DIMono
         }
     }
 
-    private bool isMobInRange(float range, Mob mob)
+    private bool IsMobInRange(float range, Mob mob)
     {
         var towerPos = transform.position;
         var mobPos = mob.transform.position;
@@ -148,9 +149,10 @@ public class TowerUnit : DIMono
         {
             if (targetTower == this) continue;
             var buffVal = skill.fxParam[0] + GetStatus(Status.ExtraPriestBuffVal);
-            if (HasBuffsCastedByThis(targetTower.buffs) && getBuffCastedByThis(targetTower.buffs).val != buffVal)
+            if (HasBuffsCastedByThis(targetTower.buffs) && GetBuffCastedByThis(targetTower.buffs).val != buffVal)
             {
-                var shouldRemoveBuff = getBuffCastedByThis(targetTower.buffs);
+                Debug.Log("Renew");
+                var shouldRemoveBuff = GetBuffCastedByThis(targetTower.buffs);
                 targetTower.RemoveBuff(targetTower, shouldRemoveBuff);
                 Buff buff = new Buff();
                 buff.leftTime = -1;
@@ -194,12 +196,11 @@ public class TowerUnit : DIMono
                 needRemove = true;
             }
 
-            idx--;
-
             if (needRemove)
             {
                 buffs.Remove(buff);
             }
+            idx--;
         }
     }
     //패시브 버프를 주는 유닛이 소환
@@ -213,7 +214,7 @@ public class TowerUnit : DIMono
         return false;
     }
 
-    public Buff getBuffCastedByThis(List<Buff> targetBuffs)
+    public Buff GetBuffCastedByThis(List<Buff> targetBuffs)
     {
         foreach (Buff buff in targetBuffs)
         {
@@ -422,7 +423,7 @@ public class TowerUnit : DIMono
         var sfxName = audioManager.GetAttackSFXName(this.Tower.towerClass);
         audioManager.Play(sfxName);
 
-        var skillPercent = (int)Random.Range(0f, 100f);
+        var skillPercent = (int)UnityEngine.Random.Range(0f, 100f);
 
         if(skillPercent <= skill.percentParam && skill.fx == Skill.Fx.percentAttack && isBossStage)
         {

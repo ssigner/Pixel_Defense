@@ -29,7 +29,11 @@ public class UI_TowerCell : DIMono
         CheckInject();
 
         this.tower = tower;
-        towerImg.sprite = Addressables.LoadAssetAsync<Sprite>(tower.spritePath).WaitForCompletion();
+        var handle = Addressables.LoadAssetAsync<Sprite>(tower.spritePath);
+        handle.Completed += (asyncOperationHandle) =>
+        {
+            towerImg.sprite = asyncOperationHandle.Result;
+        };
     }
 
 
@@ -68,7 +72,7 @@ public class UI_TowerCell : DIMono
             PopupBuyFailedUI();
         }
     }
-
+    WaitForSeconds UIPopUpDuration = new WaitForSeconds(1f);
     void FailedUIShow()
     {
         buyFailedUI.SetActive(true);
@@ -81,7 +85,6 @@ public class UI_TowerCell : DIMono
     {
         StartCoroutine(IsInvalidBuy());
     }
-    WaitForSeconds UIPopUpDuration = new WaitForSeconds(1f);
     IEnumerator IsInvalidBuy()
     {
         FailedUIShow();

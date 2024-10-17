@@ -28,22 +28,12 @@ public class TowerPlacer : DIMono
 
     Camera mainCam;
     GameObject towerPrefab;
+    float startTime;
     protected override void Init()
     {
         base.Init();
         mainCam = Camera.main;
     }
-
-    float startTime;
-
-    List<Vector3Int> tileInterval = new List<Vector3Int>()
-    {
-        new Vector3Int(1, 0), new Vector3Int(-1, 0),
-        new Vector3Int(0, 1), new Vector3Int(0, -1),
-        new Vector3Int(1, 1), new Vector3Int(-1, -1),
-        new Vector3Int(-1, 1), new Vector3Int(1, -1)
-    };
-
 
     IEnumerable<Vector2Int> IterTiles(Vector2Int startPos, Vector2Int size)
     {
@@ -57,7 +47,7 @@ public class TowerPlacer : DIMono
         }
     }
 
-    bool canPlace(Vector2Int startPos, Vector2Int size)
+    bool CanPlace(Vector2Int startPos, Vector2Int size)
     {
         foreach(var pos in IterTiles(startPos, size))
         {
@@ -70,7 +60,7 @@ public class TowerPlacer : DIMono
 
     }
 
-    public void freeTile(Vector2Int startPos, Vector2Int size)
+    public void FreeTile(Vector2Int startPos, Vector2Int size)
     {
         foreach(var pos in IterTiles(startPos, size))
         {
@@ -122,7 +112,7 @@ public class TowerPlacer : DIMono
     {
         PlaceFailedUI.SetActive(false);
     }
-    void popupPlaceFailedUI()
+    void PopupPlaceFailedUI()
     {
         StartCoroutine(IsInvalidPlace());
     }
@@ -150,11 +140,13 @@ public class TowerPlacer : DIMono
             selectedTower = null;
             previewTower.gameObject.SetActive(false);
             menuUI.SetActive(true);
+            return;
         }
 
         else if (Input.GetMouseButtonUp(1) && (selectedTower.grade == Tower.Grade.Hidden || selectedTower.grade == Tower.Grade.HyperHidden))
         {
             popupShouldHiddenPlaceUI();
+            return;
         }
 
 
@@ -167,7 +159,7 @@ public class TowerPlacer : DIMono
         previewTower.transform.position = cellWordPos + offset;
 
         var towerSize = new Vector2Int(2, 2);
-        var isPlaceable = canPlace(cellPos.ToVector2Int(), towerSize);//placerableTilemap.HasTile(cellPos);
+        var isPlaceable = CanPlace(cellPos.ToVector2Int(), towerSize);//placerableTilemap.HasTile(cellPos);
 
         if (isPlaceable)
         {
@@ -197,7 +189,7 @@ public class TowerPlacer : DIMono
         }
         else if(Time.time - startTime > 0.3f && Input.GetMouseButtonUp(0) && !isPlaceable)
         {
-            popupPlaceFailedUI();
+            PopupPlaceFailedUI();
         }
     }
 }

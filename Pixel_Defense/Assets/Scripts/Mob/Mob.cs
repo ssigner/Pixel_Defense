@@ -40,7 +40,7 @@ public class Mob : DIMono
     Material hitMaterial;
 
     private Renderer renderer;
-    private bool isChanging = false;
+    bool isChanging = false;
     public void SetData(Monster monster,int id)
     {
         CheckInject();

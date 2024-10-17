@@ -13,7 +13,7 @@ public class UI_TowerRecipeTooltip : DIMono
     }
 
     // Update is called once per frame
-    public void setStatusText(TowerUnit tower)
+    public void SetStatusText(TowerUnit tower)
     {
         StringBuilder sb = new StringBuilder();
         if (tower.Tower.grade == Tower.Grade.Hidden || tower.Tower.grade == Tower.Grade.HyperHidden)
@@ -23,7 +23,7 @@ public class UI_TowerRecipeTooltip : DIMono
         autoResizer.SetText(sb.ToString());
     }
 
-    public void setStatusText(Tower tower)
+    public void SetStatusText(Tower tower)
     {
         StringBuilder sb = new StringBuilder();
         if (tower.grade == Tower.Grade.Hidden || tower.grade == Tower.Grade.HyperHidden)

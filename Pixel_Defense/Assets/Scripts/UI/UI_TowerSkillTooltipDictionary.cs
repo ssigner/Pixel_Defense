@@ -16,7 +16,7 @@ public class UI_TowerSkillTooltipDictionary : DIMono
         base.Init();
     }
 
-    public void setStatusText(Tower tower)
+    public void SetStatusText(Tower tower)
     {
         StringBuilder sb = new StringBuilder();
         sb.Append(tower.skill.script);

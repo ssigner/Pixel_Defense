@@ -6,8 +6,6 @@ using UnityEngine.AddressableAssets;
 
 public class UI_TowerInfoTrigger : DIMono
 {
-    // Start is called before the first frame update
-    public GameObject towerUI;
     [Inject("atkRange")]
     GameObject atkRange;
     public TowerUnit towerUnit;
@@ -25,7 +23,7 @@ public class UI_TowerInfoTrigger : DIMono
     TowerPlacer towerPlacer;
 
     float startTime;
-    private new Renderer renderer;
+    private new SpriteRenderer renderer;
     //private MaterialPropertyBlock materialPropertyBlock;
     private Material effectMaterial;
     public Material originalMaterial;
@@ -37,7 +35,8 @@ public class UI_TowerInfoTrigger : DIMono
         towerUnit = GetComponent<TowerUnit>();
         startTime = Time.time;
 
-        renderer = GetComponent<Renderer>();
+
+        renderer = GetComponent<SpriteRenderer>();
         effectMaterial = Addressables.LoadAssetAsync<Material>("Materials/outline.mat").WaitForCompletion();
     }
     private void Update()
@@ -65,11 +64,11 @@ public class UI_TowerInfoTrigger : DIMono
                 Debug.Log("Hit Check");
                 ShowUIWindow();
                 
-                showTowerAtkRange();
+                ShowTowerAtkRange();
                 UI_TowerInfo.HideHiddenPlace();
 
                 audioManager.Play("BtnClickAndBuyUnit");
-                showEffectMaterial();
+                ShowEffectMaterial();
 
                 Debug.Log("ShowEffect Check");
             }
@@ -96,32 +95,32 @@ public class UI_TowerInfoTrigger : DIMono
     //
     public void HideAllUI()
     {
-        hideEffectMaterial();
-        hideUIWindow();
-        hideTowerAtkRange();
+        HideEffectMaterial();
+        HideUIWindow();
+        HideTowerAtkRange();
         SpriteMaterialCheck();
     }
 
-    private void showEffectMaterial()
+    private void ShowEffectMaterial()
     {
         renderer.material = effectMaterial;
     }
-    private void hideEffectMaterial()
+    private void HideEffectMaterial()
     {
         renderer.material = originalMaterial;
     }
-    private void showTowerAtkRange()
+    private void ShowTowerAtkRange()
     {
         atkRange.SetActive(true);
         atkRange.transform.position = towerUnit.transform.position;
         atkRange.transform.localScale = Vector3.one * towerUnit.Tower.atkRange * 2;
     }
-    public void hideTowerAtkRange()
+    public void HideTowerAtkRange()
     {
         atkRange.SetActive(false);
     }
 
-    private void hideUIWindow()
+    private void HideUIWindow()
     {
          UI_TowerInfo.Hide();
     }
@@ -129,17 +128,5 @@ public class UI_TowerInfoTrigger : DIMono
     private void ShowUIWindow()
     {
          UI_TowerInfo.Show(towerUnit);
-    }
-
-    private void ShowHideUIWindow()
-    {
-        if (UI_TowerInfo.IsVisible())
-        {
-            hideUIWindow();
-        }
-        else
-        {
-            ShowUIWindow();
-        }
     }
 }

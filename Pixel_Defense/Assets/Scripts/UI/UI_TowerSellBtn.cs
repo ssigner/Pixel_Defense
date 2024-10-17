@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class UI_TowerSellBtn : DIMono
 {
-    [Inject]
-    StagePlayData stagePlayData;
-
+    
     [Inject]
     UI_TowerInfo ui_TowerInfo;
 
@@ -23,9 +21,8 @@ public class UI_TowerSellBtn : DIMono
     // Update is called once per frame
     public void Click()
     {
-        var towerPrice = ui_TowerInfo.towerUnit.Tower.price;
-        stagePlayData.gold += towerPrice / 2;
-        towerManager.sellTower(ui_TowerInfo.towerUnit);
+        
+        towerManager.SellTower(ui_TowerInfo.towerUnit);
         ui_TowerInfo.Hide();
         towerRangeUI.SetActive(false);
     }

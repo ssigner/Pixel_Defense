@@ -7,11 +7,6 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 
-public class TowerSummonEvent
-{
-    public TowerUnit towerUnit;
-}
-
 public class TowerManager : DIMono
 { 
     public List<TowerUnit> towerUnits = new List<TowerUnit> ();
@@ -34,6 +29,9 @@ public class TowerManager : DIMono
     [Inject]
     AudioManager audioManager;
 
+    [Inject]
+    StagePlayData stagePlayData;
+
     protected override void Init()
     {
         base.Init();
@@ -54,7 +52,7 @@ public class TowerManager : DIMono
             Debug.Log($"{towerUnit.ID} : {towerUnit.Tower.name}, towerCODE : {towerUnit.Tower.code}");
         }
     }
-
+    #region SummonTower
     public void SummonTower(Tower towerData, Vector3Int towerPlace, GameObject towerPrefab)
     {
         Vector3 realPlace = towerPlace + new Vector3(1, 0f);
@@ -71,12 +69,10 @@ public class TowerManager : DIMono
         {
             playData.AddData(towerData.code);
         }
-
-        EventBus.Publish(new TowerSummonEvent()
-        {
-            towerUnit=  towerUnit
-        });
     }
+    #endregion
+
+    #region NormalComb
     private TowerUnit FindNearGradeTower(TowerUnit selectedTower)
     {
         if (towerUnits.Count <= 1) return null;
@@ -125,7 +121,7 @@ public class TowerManager : DIMono
         }
         var combTowerPrefab = Addressables.LoadAssetAsync<GameObject>(combTower[0].prefabPath).WaitForCompletion();
         SummonTower(combTower[0], selectedTower.currentPlace, combTowerPrefab);
-        selectedTower.gameObject.GetComponent<UI_TowerInfoTrigger>().hideTowerAtkRange();
+        selectedTower.gameObject.GetComponent<UI_TowerInfoTrigger>().HideTowerAtkRange();
 
         RemoveTower(selectedTower);
         RemoveTower(targetTower, true);
@@ -147,11 +143,13 @@ public class TowerManager : DIMono
         // 원래의 머티리얼로 복원
         combFailedUI.SetActive(false);
     }
+    #endregion
 
+    #region HiddenComb
     public void HiddenComb(TowerUnit selectedTower, Tower selectedHiddenTower)
     {
         var partsList = FindHiddenPartsList(selectedTower, selectedHiddenTower);
-        selectedTower.gameObject.GetComponent<UI_TowerInfoTrigger>().hideTowerAtkRange();
+        selectedTower.gameObject.GetComponent<UI_TowerInfoTrigger>().HideTowerAtkRange();
         foreach (TowerUnit part in partsList)
         {
             RemoveTower(part, true);
@@ -162,7 +160,7 @@ public class TowerManager : DIMono
         }
     }
 
-    private List<TowerUnit> FindHiddenPartsList(TowerUnit selectedTower, Tower selectedHiddenTower)
+    private IEnumerable<TowerUnit> FindHiddenPartsList(TowerUnit selectedTower, Tower selectedHiddenTower)
     {
         int recipeIdx = 0;
         List<int> hiddenRecipe = new();
@@ -204,7 +202,8 @@ public class TowerManager : DIMono
 
         return canCombList;
     }
-
+    //first : Tower.code
+    //second : towerUnit.ID
     private List<Pair<int, int>> FindCurrentTowerCode()
     {
         List<Pair<int, int>> result = new();
@@ -239,16 +238,21 @@ public class TowerManager : DIMono
         }
         return true;
     }
+    #endregion
 
+    #region RemoveTower
     private void RemoveTower(TowerUnit towerUnit, bool isTileFree=false)
     {
         towerUnits.Remove(towerUnit);
-        if(isTileFree) towerPlacer.freeTile(towerUnit.currentPlace.ToVector2Int(), new Vector2Int(2, 2)); 
+        if(isTileFree) towerPlacer.FreeTile(towerUnit.currentPlace.ToVector2Int(), new Vector2Int(2, 2)); 
         Destroy(towerUnit.gameObject);
     }
 
-    public void sellTower(TowerUnit towerUnit)
+    public void SellTower(TowerUnit towerUnit)
     {
+        var towerPrice = towerUnit.Tower.price;
+        stagePlayData.gold += towerPrice / 2;
         RemoveTower(towerUnit, true);
     }
+    #endregion
 }

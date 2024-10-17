@@ -2056,7 +2056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   testSetting:
-    nowTest: 0
+    nowTest: 1
     stageCode: 1
     gold: 5000
     emelard: 500
